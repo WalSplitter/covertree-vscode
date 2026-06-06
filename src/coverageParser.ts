@@ -17,12 +17,19 @@ export function parseCoverageSummary(filePath: string): CoverageSummary | null {
 /**
  * Looks up coverage data for a file by its absolute path.
  * Jest keys are absolute paths — pass fsPath from vscode.Uri.
+ * On Windows, vscode.Uri.fsPath uses a lowercase drive letter while Jest
+ * uses uppercase, so we try both forms.
  */
 export function getFileCoverage(
   summary: CoverageSummary,
   absoluteFilePath: string
 ): FileCoverage | null {
-  return summary[absoluteFilePath] ?? null;
+  return (
+    summary[absoluteFilePath] ??
+    summary[absoluteFilePath.replace(/^([a-z]):/, (_, d) => d.toUpperCase() + ':')] ??
+    summary[absoluteFilePath.replace(/^([A-Z]):/, (_, d) => d.toLowerCase() + ':')] ??
+    null
+  );
 }
 
 /**
