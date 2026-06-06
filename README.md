@@ -1,6 +1,6 @@
 # CoverTree
 
-[![CI](https://github.com/mgrosshauser/covertree-vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/mgrosshauser/covertree-vscode/actions/workflows/ci.yml)
+[![CI](https://github.com/WalSplitter/covertree-vscode/actions/workflows/ci.yml/badge.svg)](https://github.com/WalSplitter/covertree-vscode/actions/workflows/ci.yml)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![VS Code](https://img.shields.io/badge/VS%20Code-^1.85.0-blue.svg)](https://code.visualstudio.com/)
 
