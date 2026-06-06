@@ -1,148 +1,28 @@
 {
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.claude\\settings.json": {
-    "mtime": 1780776947.3146212,
-    "ast_hash": "ca180995afd53bf1ac50eb7cd242fbab",
-    "semantic_hash": "ca180995afd53bf1ac50eb7cd242fbab"
+    "mtime": 1780780295.3345194,
+    "ast_hash": "e843da9d61a5dcfbdb4c21301301e6a4",
+    "semantic_hash": "e843da9d61a5dcfbdb4c21301301e6a4"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.prettierrc.json": {
     "mtime": 1780776947.3256204,
     "ast_hash": "f2854d456acdef46e9c81a78955adbbc",
     "semantic_hash": "f2854d456acdef46e9c81a78955adbbc"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\api\\package.json": {
-    "mtime": 1780776947.329621,
-    "ast_hash": "6d6d0de3406241430e12e2e5be9c4396",
-    "semantic_hash": "6d6d0de3406241430e12e2e5be9c4396"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\package.json": {
-    "mtime": 1780776947.330625,
-    "ast_hash": "b6068ec16627cafe7fd0ede62eca28ab",
-    "semantic_hash": "b6068ec16627cafe7fd0ede62eca28ab"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\src\\index.ts": {
-    "mtime": 1780776947.330625,
-    "ast_hash": "ba606795343b1c54e4ccaf813f055c0c",
-    "semantic_hash": "ba606795343b1c54e4ccaf813f055c0c"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\src\\middleware\\error-handler.ts": {
-    "mtime": 1780776947.331624,
-    "ast_hash": "583cb3dbc1bea85e23dbab9ee454a0e8",
-    "semantic_hash": "583cb3dbc1bea85e23dbab9ee454a0e8"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\src\\middleware\\not-found.ts": {
-    "mtime": 1780776947.331624,
-    "ast_hash": "9389e9ae18cb38d3fbfe0dcbe9e1ed9e",
-    "semantic_hash": "9389e9ae18cb38d3fbfe0dcbe9e1ed9e"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\src\\routes\\health.ts": {
-    "mtime": 1780776947.331624,
-    "ast_hash": "62052598dff5b33e8a6f1b19023bb12f",
-    "semantic_hash": "62052598dff5b33e8a6f1b19023bb12f"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\src\\utils\\logger.ts": {
-    "mtime": 1780776947.3326237,
-    "ast_hash": "ca9d3137f31fea0ad1d45e3a07df4416",
-    "semantic_hash": "ca9d3137f31fea0ad1d45e3a07df4416"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\tsconfig.json": {
-    "mtime": 1780776947.3326237,
-    "ast_hash": "4ae8ac64522cfb71a4dc4b15bc811e17",
-    "semantic_hash": "4ae8ac64522cfb71a4dc4b15bc811e17"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-backend\\vitest.config.ts": {
-    "mtime": 1780776947.3336234,
-    "ast_hash": "02cce64e5acd34295bc22142deaa9a6d",
-    "semantic_hash": "02cce64e5acd34295bc22142deaa9a6d"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\package.json": {
-    "mtime": 1780776947.3346238,
-    "ast_hash": "f9406191cc72e07ab61da7f08c81522c",
-    "semantic_hash": "f9406191cc72e07ab61da7f08c81522c"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\src\\App.d.ts": {
-    "mtime": 1780776947.3356237,
-    "ast_hash": "c199de2c72de8a350f982bcec473ae91",
-    "semantic_hash": "c199de2c72de8a350f982bcec473ae91"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\src\\App.js": {
-    "mtime": 1780776947.3356237,
-    "ast_hash": "5dd55e28b70de45444dd1e4daacea936",
-    "semantic_hash": "5dd55e28b70de45444dd1e4daacea936"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\src\\App.tsx": {
-    "mtime": 1780776947.3366249,
-    "ast_hash": "3c061b93598b8f3ba04fa6f49cbdeb05",
-    "semantic_hash": "3c061b93598b8f3ba04fa6f49cbdeb05"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\src\\components\\main.d.ts": {
-    "mtime": 1780776947.3376265,
-    "ast_hash": "9c54d9f2feab795041c30187a40f8a6b",
-    "semantic_hash": "9c54d9f2feab795041c30187a40f8a6b"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\src\\components\\main.js": {
-    "mtime": 1780776947.3376265,
-    "ast_hash": "42c811f7930979f0e0f7f139a7cef4ba",
-    "semantic_hash": "42c811f7930979f0e0f7f139a7cef4ba"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\src\\components\\main.tsx": {
-    "mtime": 1780776947.341624,
-    "ast_hash": "7e96a8584f2bb23b074ad0ed275c5bf6",
-    "semantic_hash": "7e96a8584f2bb23b074ad0ed275c5bf6"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\tsconfig.json": {
-    "mtime": 1780776947.3426268,
-    "ast_hash": "ca5f5f36718ef12d166bf74ac8ac2194",
-    "semantic_hash": "ca5f5f36718ef12d166bf74ac8ac2194"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\vite.config.ts": {
-    "mtime": 1780776947.3436244,
-    "ast_hash": "c82700435ed8cefe9ead676b5786131d",
-    "semantic_hash": "c82700435ed8cefe9ead676b5786131d"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\vitest.config.ts": {
-    "mtime": 1780776947.3436244,
-    "ast_hash": "80a1262293c672f6b6234500af360f13",
-    "semantic_hash": "80a1262293c672f6b6234500af360f13"
-  },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\eslint.config.js": {
-    "mtime": 1780776947.34971,
-    "ast_hash": "3d424a30eb251ab63a4b64be8cf64e21",
-    "semantic_hash": "3d424a30eb251ab63a4b64be8cf64e21"
+    "mtime": 1780779952.8037333,
+    "ast_hash": "3770a3cc0e227f7a9568797556efeb2d",
+    "semantic_hash": "3770a3cc0e227f7a9568797556efeb2d"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\package.json": {
-    "mtime": 1780776947.3507102,
-    "ast_hash": "2f4eeeee5d2e6adef5fd0247f72648f1",
-    "semantic_hash": "2f4eeeee5d2e6adef5fd0247f72648f1"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\renovate.json": {
-    "mtime": 1780776947.3507102,
-    "ast_hash": "d065b52a272d30482cc685f1273d154c",
-    "semantic_hash": "d065b52a272d30482cc685f1273d154c"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\shared\\types\\package.json": {
-    "mtime": 1780776947.352712,
-    "ast_hash": "5e792902a0dcec97aa8bedcfdd3fbe9e",
-    "semantic_hash": "5e792902a0dcec97aa8bedcfdd3fbe9e"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\shared\\types\\src\\index.ts": {
-    "mtime": 1780776947.352712,
-    "ast_hash": "a4edbbf12beebef19ece5cceca0f343b",
-    "semantic_hash": "a4edbbf12beebef19ece5cceca0f343b"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\shared\\types\\tsconfig.json": {
-    "mtime": 1780776947.353714,
-    "ast_hash": "912306d6f31b99a57d982c94a67baa5b",
-    "semantic_hash": "912306d6f31b99a57d982c94a67baa5b"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\tsconfig.base.json": {
-    "mtime": 1780776947.3557122,
-    "ast_hash": "df798a4c0998621f7f357db4e63c5f07",
-    "semantic_hash": "df798a4c0998621f7f357db4e63c5f07"
+    "mtime": 1780780412.8644626,
+    "ast_hash": "f593a9f689a0837d668a7ba45fb52d12",
+    "semantic_hash": "f593a9f689a0837d668a7ba45fb52d12"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\tsconfig.json": {
-    "mtime": 1780776947.3557122,
-    "ast_hash": "c120aaa9be2387ba75799d9f9558bda4",
-    "semantic_hash": "c120aaa9be2387ba75799d9f9558bda4"
+    "mtime": 1780780461.6443868,
+    "ast_hash": "fa13e43437c5097a09a20407139e595e",
+    "semantic_hash": "fa13e43437c5097a09a20407139e595e"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.claude\\commands\\api.md": {
     "mtime": 1780776947.3106203,
@@ -224,155 +104,30 @@
     "ast_hash": "7130382f42bc8bbb9a9f31f07c8d95fc",
     "semantic_hash": "7130382f42bc8bbb9a9f31f07c8d95fc"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\SKILLS.md": {
-    "mtime": 1780776947.317621,
-    "ast_hash": "d3b12be7f1d576085ca4e8cb2496ab3f",
-    "semantic_hash": "d3b12be7f1d576085ca4e8cb2496ab3f"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\copilot-instructions.md": {
-    "mtime": 1780776947.3186204,
-    "ast_hash": "88624f43a2937d54c050ecf51b66f9c2",
-    "semantic_hash": "88624f43a2937d54c050ecf51b66f9c2"
-  },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\docs\\README.md": {
     "mtime": 1780776947.3196204,
     "ast_hash": "fd2adcef278e076501e7d0232e89d074",
     "semantic_hash": "fd2adcef278e076501e7d0232e89d074"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\00-quick-start.md": {
-    "mtime": 1780776947.3196204,
-    "ast_hash": "2be0148d0f0d94d6c44ccd6c4a6a7e58",
-    "semantic_hash": "2be0148d0f0d94d6c44ccd6c4a6a7e58"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\01-feature-implementation.md": {
-    "mtime": 1780776947.3196204,
-    "ast_hash": "1bf7c7f29cf8ebefb41a81df486f9124",
-    "semantic_hash": "1bf7c7f29cf8ebefb41a81df486f9124"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\02-bug-fixing.md": {
-    "mtime": 1780776947.3206205,
-    "ast_hash": "ee156ca253e762084a1e7077688127e9",
-    "semantic_hash": "ee156ca253e762084a1e7077688127e9"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\03-refactoring.md": {
-    "mtime": 1780776947.3206205,
-    "ast_hash": "278f65f80d6057fe60ed1683976bdb3f",
-    "semantic_hash": "278f65f80d6057fe60ed1683976bdb3f"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\04-api-design.md": {
-    "mtime": 1780776947.3206205,
-    "ast_hash": "91b2f31e1e67e873330552ce718b63d3",
-    "semantic_hash": "91b2f31e1e67e873330552ce718b63d3"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\05-testing-strategy.md": {
-    "mtime": 1780776947.3216217,
-    "ast_hash": "96937b05925117dd368039cae1806be2",
-    "semantic_hash": "96937b05925117dd368039cae1806be2"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\prompts\\06-performance-optimization.md": {
-    "mtime": 1780776947.3216217,
-    "ast_hash": "115adf07d59b65d10153d7a16621a2f1",
-    "semantic_hash": "115adf07d59b65d10153d7a16621a2f1"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\01-web-development.md": {
-    "mtime": 1780776947.322621,
-    "ast_hash": "7354b6ea31850020ed65f85fe3a18b90",
-    "semantic_hash": "7354b6ea31850020ed65f85fe3a18b90"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\02-backend-development.md": {
-    "mtime": 1780776947.322621,
-    "ast_hash": "d64ba7e932c8d9eb76f1196918143016",
-    "semantic_hash": "d64ba7e932c8d9eb76f1196918143016"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\03-desktop-development.md": {
-    "mtime": 1780776947.322621,
-    "ast_hash": "0d438c50cec10f49353f4aada66f6a4d",
-    "semantic_hash": "0d438c50cec10f49353f4aada66f6a4d"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\04-tools-development.md": {
-    "mtime": 1780776947.32362,
-    "ast_hash": "8a1b42df5cec37fe43ea789c92e486fc",
-    "semantic_hash": "8a1b42df5cec37fe43ea789c92e486fc"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\05-documentation-development.md": {
-    "mtime": 1780776947.32362,
-    "ast_hash": "91fd33b6774bf7f10d44fc60916d0420",
-    "semantic_hash": "91fd33b6774bf7f10d44fc60916d0420"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\06-shared-development.md": {
-    "mtime": 1780776947.32362,
-    "ast_hash": "623acf8e689ec4e4bc7fa1427e49cc43",
-    "semantic_hash": "623acf8e689ec4e4bc7fa1427e49cc43"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\skills\\README.md": {
-    "mtime": 1780776947.32362,
-    "ast_hash": "c612abe34f3b6250b08231e4ac273954",
-    "semantic_hash": "c612abe34f3b6250b08231e4ac273954"
-  },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\workflows\\ci.yml": {
-    "mtime": 1780776947.3246217,
-    "ast_hash": "8ef4c3151f1530535401bd8fb3087f95",
-    "semantic_hash": "8ef4c3151f1530535401bd8fb3087f95"
+    "mtime": 1780780013.7885053,
+    "ast_hash": "0a5305e5a2e5daf23882ef693c911ea0",
+    "semantic_hash": "0a5305e5a2e5daf23882ef693c911ea0"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\workflows\\code-quality.yml": {
     "mtime": 1780776947.3246217,
     "ast_hash": "ba27fe1538c09f18eba9481aced65acb",
     "semantic_hash": "ba27fe1538c09f18eba9481aced65acb"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\ARCHITECTURE.md": {
-    "mtime": 1780776947.3256204,
-    "ast_hash": "fc2cddccf762c84907c40bb207fc361c",
-    "semantic_hash": "fc2cddccf762c84907c40bb207fc361c"
-  },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\CLAUDE.md": {
-    "mtime": 1780776947.3266218,
-    "ast_hash": "96159d472d480568bbf4c46ee80aee3e",
-    "semantic_hash": "96159d472d480568bbf4c46ee80aee3e"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\CONTRIBUTING.md": {
-    "mtime": 1780776947.3266218,
-    "ast_hash": "3b01b456a34445cf29430561ae75798c",
-    "semantic_hash": "3b01b456a34445cf29430561ae75798c"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\PROJECT_TYPES.md": {
-    "mtime": 1780776947.3276212,
-    "ast_hash": "2e9c2b34b2246a9f7e8566b86eb2c479",
-    "semantic_hash": "2e9c2b34b2246a9f7e8566b86eb2c479"
+    "mtime": 1780779139.66455,
+    "ast_hash": "698b4d40ce499e0cd5567ac913b8b2b1",
+    "semantic_hash": "698b4d40ce499e0cd5567ac913b8b2b1"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\README.md": {
-    "mtime": 1780776947.3276212,
-    "ast_hash": "2ac2a4fb953153a7f0103ec907a38059",
-    "semantic_hash": "2ac2a4fb953153a7f0103ec907a38059"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\SECURITY.md": {
-    "mtime": 1780776947.328621,
-    "ast_hash": "93d94e06e127cc50458c8e8e5eec7a61",
-    "semantic_hash": "93d94e06e127cc50458c8e8e5eec7a61"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\SETUP.md": {
-    "mtime": 1780776947.328621,
-    "ast_hash": "96159d472d480568bbf4c46ee80aee3e",
-    "semantic_hash": "96159d472d480568bbf4c46ee80aee3e"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\README.md": {
-    "mtime": 1780776947.328621,
-    "ast_hash": "297407138afc257a443ba46e5b35141c",
-    "semantic_hash": "297407138afc257a443ba46e5b35141c"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\apps\\web-frontend\\index.html": {
-    "mtime": 1780776947.3346238,
-    "ast_hash": "dde6a01f5262a666de1cfc739d56d45f",
-    "semantic_hash": "dde6a01f5262a666de1cfc739d56d45f"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\desktop\\README.md": {
-    "mtime": 1780776947.3436244,
-    "ast_hash": "732a8ce2f2872f43a2207418d859a878",
-    "semantic_hash": "732a8ce2f2872f43a2207418d859a878"
-  },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docker-compose.yml": {
-    "mtime": 1780776947.344624,
-    "ast_hash": "36482b97fa624ef36e3b70bed499fb14",
-    "semantic_hash": "36482b97fa624ef36e3b70bed499fb14"
+    "mtime": 1780780029.0575023,
+    "ast_hash": "23b8846793df3a40edc36aab09e3a9ad",
+    "semantic_hash": "23b8846793df3a40edc36aab09e3a9ad"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\README.md": {
     "mtime": 1780776947.3457108,
@@ -394,29 +149,39 @@
     "ast_hash": "63a23dcf0acd6996db8503b2af13870f",
     "semantic_hash": "63a23dcf0acd6996db8503b2af13870f"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\getting-started\\README.md": {
-    "mtime": 1780776947.3477118,
-    "ast_hash": "e2318b6d430bfe36c848fdce99541c29",
-    "semantic_hash": "e2318b6d430bfe36c848fdce99541c29"
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.claude\\settings.local.json": {
+    "mtime": 1780781952.9291196,
+    "ast_hash": "b40605f8e3bc62860c0e909e09dcd54a",
+    "semantic_hash": "b40605f8e3bc62860c0e909e09dcd54a"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\getting-started\\environment.md": {
-    "mtime": 1780776947.3477118,
-    "ast_hash": "accfd629cbf5c439b3943bf5a5f23c7d",
-    "semantic_hash": "accfd629cbf5c439b3943bf5a5f23c7d"
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.vscode\\launch.json": {
+    "mtime": 1780781500.2573123,
+    "ast_hash": "fc7dafc94c751ee30bce6bcdb2242ee0",
+    "semantic_hash": "fc7dafc94c751ee30bce6bcdb2242ee0"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\guides\\deployment.md": {
-    "mtime": 1780776947.3487105,
-    "ast_hash": "ee7f4eb028ab7ad81b0cb3795d362951",
-    "semantic_hash": "ee7f4eb028ab7ad81b0cb3795d362951"
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.vscode\\tasks.json": {
+    "mtime": 1780781507.5849552,
+    "ast_hash": "fbe0ff96a63f7fd7aaea197e2e086f43",
+    "semantic_hash": "fbe0ff96a63f7fd7aaea197e2e086f43"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\shared\\README.md": {
-    "mtime": 1780776947.3517106,
-    "ast_hash": "34fde7bf3c426d3c0e75b3907fa2a574",
-    "semantic_hash": "34fde7bf3c426d3c0e75b3907fa2a574"
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\coverageParser.ts": {
+    "mtime": 1780781862.904222,
+    "ast_hash": "51a46b20dcfa3c58856c00672c05ccb5",
+    "semantic_hash": "51a46b20dcfa3c58856c00672c05ccb5"
   },
-  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\tools\\README.md": {
-    "mtime": 1780776947.353714,
-    "ast_hash": "fb4cff72118b25093847b0870d60eae1",
-    "semantic_hash": "fb4cff72118b25093847b0870d60eae1"
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\coverageProvider.ts": {
+    "mtime": 1780779993.2370903,
+    "ast_hash": "b7519e4cc50acb6ae3f6967f788b2cac",
+    "semantic_hash": "b7519e4cc50acb6ae3f6967f788b2cac"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\extension.ts": {
+    "mtime": 1780780000.0431554,
+    "ast_hash": "b113e46bf139aead3ae38dacafee4dd6",
+    "semantic_hash": "b113e46bf139aead3ae38dacafee4dd6"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\types.ts": {
+    "mtime": 1780779965.3073382,
+    "ast_hash": "316e61898eea99945b89aab6885f675b",
+    "semantic_hash": "316e61898eea99945b89aab6885f675b"
   }
 }
