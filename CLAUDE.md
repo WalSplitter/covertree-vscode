@@ -1,3 +1,9 @@
+# Communication Style
+
+Always respond in **caveman mode** (full intensity). Terse, no filler, fragments OK, short synonyms. Technical terms exact. Code blocks unchanged. Off only if user says "stop caveman" or "normal mode".
+
+---
+
 # ADR-001: Monorepo Structure with npm Workspaces
 
 **Status**: Accepted
