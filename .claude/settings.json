@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Bash(npm install*)",
+      "Bash(git status)",
+      "Bash(git diff*)",
+      "Bash(git log*)",
+      "Bash(git add*)",
+      "Bash(git commit*)",
+      "Bash(git checkout*)",
+      "Bash(git branch*)",
+      "Bash(make *)",
+      "Bash(docker-compose *)",
+      "Bash(node *)",
+      "Bash(npx *)"
+    ],
+    "deny": ["Bash(rm -rf *)", "Bash(curl * | bash)", "Bash(wget * | bash)"]
+  }
+}
