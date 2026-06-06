@@ -1,1 +1,40 @@
-{"nodes": [{"id": "commands_backend", "label": "Backend & Microservices Command Template", "file_type": "document", "source_file": ".claude/commands/backend.md", "source_location": "1-76", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "concept_repository_pattern", "label": "Repository Pattern (data access abstraction)", "file_type": "rationale", "source_file": ".claude/commands/backend.md", "source_location": "22-37", "source_url": null, "captured_at": null, "author": null, "contributor": null, "rationale": "Repository pattern mandated to prevent raw SQL in services, enforce parameterized queries, and decouple data access from business logic."}], "edges": [{"source": "commands_backend", "target": "concept_repository_pattern", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".claude/commands/backend.md", "source_location": "22-37", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "commands_backend",
+      "label": "Backend & Microservices Command Template",
+      "file_type": "document",
+      "source_file": ".claude/commands/backend.md",
+      "source_location": "1-76",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_repository_pattern",
+      "label": "Repository Pattern (data access abstraction)",
+      "file_type": "rationale",
+      "source_file": ".claude/commands/backend.md",
+      "source_location": "22-37",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Repository pattern mandated to prevent raw SQL in services, enforce parameterized queries, and decouple data access from business logic."
+    }
+  ],
+  "edges": [
+    {
+      "source": "commands_backend",
+      "target": "concept_repository_pattern",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".claude/commands/backend.md",
+      "source_location": "22-37",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

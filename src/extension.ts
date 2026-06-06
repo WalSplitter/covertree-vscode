@@ -24,7 +24,7 @@ export function activate(context: vscode.ExtensionContext): void {
       }
     }),
 
-    provider,
+    provider
   );
 }
 

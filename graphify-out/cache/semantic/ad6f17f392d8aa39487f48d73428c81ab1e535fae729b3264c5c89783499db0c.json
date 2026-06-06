@@ -1,1 +1,17 @@
-{"nodes": [{"id": "commands_web", "label": "Web Development Command Template", "file_type": "document", "source_file": ".claude/commands/web.md", "source_location": "1-80", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "commands_web",
+      "label": "Web Development Command Template",
+      "file_type": "document",
+      "source_file": ".claude/commands/web.md",
+      "source_location": "1-80",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}

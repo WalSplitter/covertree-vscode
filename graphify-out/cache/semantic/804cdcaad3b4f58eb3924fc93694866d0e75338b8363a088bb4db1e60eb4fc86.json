@@ -1,1 +1,28 @@
-{"nodes": [{"id": "claude_adr001_npm_workspaces", "label": "ADR-001: npm Workspaces Decision (CLAUDE.md)", "file_type": "rationale", "source_file": "CLAUDE.md", "source_location": "ADR-001", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "claude_adr001_npm_workspaces", "target": "adr_001_monorepo_npm_workspaces", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "CLAUDE.md", "source_location": "ADR-001", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "claude_adr001_npm_workspaces",
+      "label": "ADR-001: npm Workspaces Decision (CLAUDE.md)",
+      "file_type": "rationale",
+      "source_file": "CLAUDE.md",
+      "source_location": "ADR-001",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "claude_adr001_npm_workspaces",
+      "target": "adr_001_monorepo_npm_workspaces",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": "ADR-001",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

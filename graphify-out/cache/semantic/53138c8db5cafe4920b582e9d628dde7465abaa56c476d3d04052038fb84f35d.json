@@ -1,1 +1,71 @@
-{"nodes": [{"id": "tsconfig_base", "label": "Base TypeScript Config", "file_type": "code", "source_file": "tsconfig.base.json", "source_location": "1-31", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "tsconfig_base_strict_mode", "label": "TypeScript Strict Mode", "file_type": "rationale", "source_file": "tsconfig.base.json", "source_location": "13", "source_url": null, "captured_at": null, "author": null, "contributor": null, "rationale": "strict:true enforces safer TypeScript patterns; noUnusedLocals and noUnusedParameters catch dead code early; supports ADR-002 TypeScript Strict Mode decision."}, {"id": "tsconfig_base_path_aliases", "label": "TypeScript Path Aliases (@shared, @types, @utils)", "file_type": "concept", "source_file": "tsconfig.base.json", "source_location": "22-28", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "tsconfig_base", "target": "tsconfig_base_strict_mode", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "tsconfig.base.json", "source_location": "13", "weight": 1.0}, {"source": "tsconfig_base", "target": "tsconfig_base_path_aliases", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "tsconfig.base.json", "source_location": "22-28", "weight": 1.0}, {"source": "tsconfig_base_path_aliases", "target": "types_package_shared_types", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "tsconfig.base.json", "source_location": "26", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "tsconfig_base",
+      "label": "Base TypeScript Config",
+      "file_type": "code",
+      "source_file": "tsconfig.base.json",
+      "source_location": "1-31",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "tsconfig_base_strict_mode",
+      "label": "TypeScript Strict Mode",
+      "file_type": "rationale",
+      "source_file": "tsconfig.base.json",
+      "source_location": "13",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "strict:true enforces safer TypeScript patterns; noUnusedLocals and noUnusedParameters catch dead code early; supports ADR-002 TypeScript Strict Mode decision."
+    },
+    {
+      "id": "tsconfig_base_path_aliases",
+      "label": "TypeScript Path Aliases (@shared, @types, @utils)",
+      "file_type": "concept",
+      "source_file": "tsconfig.base.json",
+      "source_location": "22-28",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "tsconfig_base",
+      "target": "tsconfig_base_strict_mode",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tsconfig.base.json",
+      "source_location": "13",
+      "weight": 1.0
+    },
+    {
+      "source": "tsconfig_base",
+      "target": "tsconfig_base_path_aliases",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tsconfig.base.json",
+      "source_location": "22-28",
+      "weight": 1.0
+    },
+    {
+      "source": "tsconfig_base_path_aliases",
+      "target": "types_package_shared_types",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "tsconfig.base.json",
+      "source_location": "26",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

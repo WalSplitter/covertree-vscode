@@ -1,1 +1,28 @@
-{"nodes": [{"id": "types_tsconfig_shared_types", "label": "shared/types tsconfig", "file_type": "code", "source_file": "shared/types/tsconfig.json", "source_location": "1-11", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "types_tsconfig_shared_types", "target": "tsconfig_base", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "shared/types/tsconfig.json", "source_location": "2", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "types_tsconfig_shared_types",
+      "label": "shared/types tsconfig",
+      "file_type": "code",
+      "source_file": "shared/types/tsconfig.json",
+      "source_location": "1-11",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "types_tsconfig_shared_types",
+      "target": "tsconfig_base",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "shared/types/tsconfig.json",
+      "source_location": "2",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

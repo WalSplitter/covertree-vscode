@@ -1,1 +1,929 @@
-{"nodes": [{"id": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "label": "package.json", "file_type": "code", "source_file": "package.json", "source_location": "L1"}, {"id": "covertree_vscode_package_name", "label": "name", "file_type": "code", "source_file": "package.json", "source_location": "L2"}, {"id": "covertree_vscode_package_version", "label": "version", "file_type": "code", "source_file": "package.json", "source_location": "L3"}, {"id": "covertree_vscode_package_description", "label": "description", "file_type": "code", "source_file": "package.json", "source_location": "L4"}, {"id": "covertree_vscode_package_license", "label": "license", "file_type": "code", "source_file": "package.json", "source_location": "L5"}, {"id": "covertree_vscode_package_author", "label": "author", "file_type": "code", "source_file": "package.json", "source_location": "L6"}, {"id": "covertree_vscode_package_type", "label": "type", "file_type": "code", "source_file": "package.json", "source_location": "L7"}, {"id": "covertree_vscode_package_repository", "label": "repository", "file_type": "code", "source_file": "package.json", "source_location": "L8"}, {"id": "covertree_vscode_package_repository_type", "label": "type", "file_type": "code", "source_file": "package.json", "source_location": "L9"}, {"id": "covertree_vscode_package_repository_url", "label": "url", "file_type": "code", "source_file": "package.json", "source_location": "L10"}, {"id": "covertree_vscode_package_engines", "label": "engines", "file_type": "code", "source_file": "package.json", "source_location": "L12"}, {"id": "covertree_vscode_package_engines_node", "label": "node", "file_type": "code", "source_file": "package.json", "source_location": "L13"}, {"id": "covertree_vscode_package_engines_npm", "label": "npm", "file_type": "code", "source_file": "package.json", "source_location": "L14"}, {"id": "covertree_vscode_package_workspaces", "label": "workspaces", "file_type": "code", "source_file": "package.json", "source_location": "L16"}, {"id": "covertree_vscode_package_scripts", "label": "scripts", "file_type": "code", "source_file": "package.json", "source_location": "L22"}, {"id": "covertree_vscode_package_scripts_install_all", "label": "install-all", "file_type": "code", "source_file": "package.json", "source_location": "L23"}, {"id": "covertree_vscode_package_scripts_dev", "label": "dev", "file_type": "code", "source_file": "package.json", "source_location": "L24"}, {"id": "covertree_vscode_package_scripts_build", "label": "build", "file_type": "code", "source_file": "package.json", "source_location": "L25"}, {"id": "covertree_vscode_package_scripts_test", "label": "test", "file_type": "code", "source_file": "package.json", "source_location": "L26"}, {"id": "covertree_vscode_package_scripts_test_watch", "label": "test:watch", "file_type": "code", "source_file": "package.json", "source_location": "L27"}, {"id": "covertree_vscode_package_scripts_test_coverage", "label": "test:coverage", "file_type": "code", "source_file": "package.json", "source_location": "L28"}, {"id": "covertree_vscode_package_scripts_lint", "label": "lint", "file_type": "code", "source_file": "package.json", "source_location": "L29"}, {"id": "covertree_vscode_package_scripts_lint_fix", "label": "lint:fix", "file_type": "code", "source_file": "package.json", "source_location": "L30"}, {"id": "covertree_vscode_package_scripts_format", "label": "format", "file_type": "code", "source_file": "package.json", "source_location": "L31"}, {"id": "covertree_vscode_package_scripts_format_check", "label": "format:check", "file_type": "code", "source_file": "package.json", "source_location": "L32"}, {"id": "covertree_vscode_package_scripts_clean", "label": "clean", "file_type": "code", "source_file": "package.json", "source_location": "L33"}, {"id": "covertree_vscode_package_scripts_clean_root", "label": "clean-root", "file_type": "code", "source_file": "package.json", "source_location": "L34"}, {"id": "covertree_vscode_package_scripts_type_check", "label": "type-check", "file_type": "code", "source_file": "package.json", "source_location": "L35"}, {"id": "covertree_vscode_package_scripts_type_check_watch", "label": "type-check:watch", "file_type": "code", "source_file": "package.json", "source_location": "L36"}, {"id": "covertree_vscode_package_scripts_precommit", "label": "precommit", "file_type": "code", "source_file": "package.json", "source_location": "L37"}, {"id": "covertree_vscode_package_devdependencies", "label": "devDependencies", "file_type": "code", "source_file": "package.json", "source_location": "L39"}, {"id": "covertree_vscode_package_devdependencies_eslint_js", "label": "@eslint/js", "file_type": "code", "source_file": "package.json", "source_location": "L40"}, {"id": "covertree_vscode_package_devdependencies_types_cors", "label": "@types/cors", "file_type": "code", "source_file": "package.json", "source_location": "L41"}, {"id": "covertree_vscode_package_devdependencies_types_node", "label": "@types/node", "file_type": "code", "source_file": "package.json", "source_location": "L42"}, {"id": "covertree_vscode_package_devdependencies_typescript_eslint_eslint_plugin", "label": "@typescript-eslint/eslint-plugin", "file_type": "code", "source_file": "package.json", "source_location": "L43"}, {"id": "covertree_vscode_package_devdependencies_typescript_eslint_parser", "label": "@typescript-eslint/parser", "file_type": "code", "source_file": "package.json", "source_location": "L44"}, {"id": "covertree_vscode_package_devdependencies_eslint", "label": "eslint", "file_type": "code", "source_file": "package.json", "source_location": "L45"}, {"id": "covertree_vscode_package_devdependencies_eslint_config_prettier", "label": "eslint-config-prettier", "file_type": "code", "source_file": "package.json", "source_location": "L46"}, {"id": "covertree_vscode_package_devdependencies_eslint_plugin_import", "label": "eslint-plugin-import", "file_type": "code", "source_file": "package.json", "source_location": "L47"}, {"id": "covertree_vscode_package_devdependencies_prettier", "label": "prettier", "file_type": "code", "source_file": "package.json", "source_location": "L48"}, {"id": "covertree_vscode_package_devdependencies_rimraf", "label": "rimraf", "file_type": "code", "source_file": "package.json", "source_location": "L49"}, {"id": "covertree_vscode_package_devdependencies_typescript", "label": "typescript", "file_type": "code", "source_file": "package.json", "source_location": "L50"}, {"id": "covertree_vscode_package_devdependencies_typescript_eslint", "label": "typescript-eslint", "file_type": "code", "source_file": "package.json", "source_location": "L51"}, {"id": "covertree_vscode_package_packagemanager", "label": "packageManager", "file_type": "code", "source_file": "package.json", "source_location": "L53"}, {"id": "covertree_vscode_package_dependencies", "label": "dependencies", "file_type": "code", "source_file": "package.json", "source_location": "L54"}, {"id": "covertree_vscode_package_dependencies_cors", "label": "cors", "file_type": "code", "source_file": "package.json", "source_location": "L55"}, {"id": "covertree_vscode_package_dependencies_jsdom", "label": "jsdom", "file_type": "code", "source_file": "package.json", "source_location": "L56"}], "edges": [{"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_name", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L2", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_version", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L3", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_description", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L4", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_license", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L5", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_author", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L6", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_type", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L7", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_repository", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L8", "weight": 1.0}, {"source": "covertree_vscode_package_repository", "target": "covertree_vscode_package_repository_type", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L9", "weight": 1.0}, {"source": "covertree_vscode_package_repository", "target": "covertree_vscode_package_repository_url", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L10", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_engines", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L12", "weight": 1.0}, {"source": "covertree_vscode_package_engines", "target": "covertree_vscode_package_engines_node", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L13", "weight": 1.0}, {"source": "covertree_vscode_package_engines", "target": "covertree_vscode_package_engines_npm", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L14", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_workspaces", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L16", "weight": 1.0}, {"source": "covertree_vscode_package_workspaces", "target": "ref_apps", "relation": "extends", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L16", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_workspaces", "target": "ref_desktop", "relation": "extends", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L16", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_workspaces", "target": "ref_tools", "relation": "extends", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L16", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_workspaces", "target": "ref_shared", "relation": "extends", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L16", "weight": 1.0, "context": "import"}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_scripts", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L22", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_install_all", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L23", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_dev", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L24", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_build", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L25", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_test", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L26", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_test_watch", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L27", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_test_coverage", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L28", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_lint", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L29", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_lint_fix", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L30", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_format", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L31", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_format_check", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L32", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_clean", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L33", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_clean_root", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L34", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_type_check", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L35", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_type_check_watch", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L36", "weight": 1.0}, {"source": "covertree_vscode_package_scripts", "target": "covertree_vscode_package_scripts_precommit", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L37", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_devdependencies", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L39", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_eslint_js", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L40", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_eslint_js", "target": "eslint_js", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L40", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_types_cors", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L41", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_types_cors", "target": "types_cors", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L41", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_types_node", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L42", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_types_node", "target": "types_node", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L42", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_typescript_eslint_eslint_plugin", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L43", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_typescript_eslint_eslint_plugin", "target": "typescript_eslint_eslint_plugin", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L43", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_typescript_eslint_parser", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L44", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_typescript_eslint_parser", "target": "typescript_eslint_parser", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L44", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_eslint", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L45", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_eslint", "target": "eslint", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L45", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_eslint_config_prettier", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L46", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_eslint_config_prettier", "target": "eslint_config_prettier", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L46", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_eslint_plugin_import", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L47", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_eslint_plugin_import", "target": "eslint_plugin_import", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L47", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_prettier", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L48", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_prettier", "target": "prettier", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L48", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_rimraf", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L49", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_rimraf", "target": "rimraf", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L49", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_typescript", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L50", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_typescript", "target": "typescript", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L50", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_devdependencies", "target": "covertree_vscode_package_devdependencies_typescript_eslint", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L51", "weight": 1.0}, {"source": "covertree_vscode_package_devdependencies_typescript_eslint", "target": "typescript_eslint", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L51", "weight": 1.0, "context": "import"}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_packagemanager", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L53", "weight": 1.0}, {"source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json", "target": "covertree_vscode_package_dependencies", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L54", "weight": 1.0}, {"source": "covertree_vscode_package_dependencies", "target": "covertree_vscode_package_dependencies_cors", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L55", "weight": 1.0}, {"source": "covertree_vscode_package_dependencies_cors", "target": "cors", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L55", "weight": 1.0, "context": "import"}, {"source": "covertree_vscode_package_dependencies", "target": "covertree_vscode_package_dependencies_jsdom", "relation": "contains", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L56", "weight": 1.0}, {"source": "covertree_vscode_package_dependencies_jsdom", "target": "jsdom", "relation": "imports", "confidence": "EXTRACTED", "source_file": "package.json", "source_location": "L56", "weight": 1.0, "context": "import"}]}
+{
+  "nodes": [
+    {
+      "id": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "label": "package.json",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L1"
+    },
+    {
+      "id": "covertree_vscode_package_name",
+      "label": "name",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L2"
+    },
+    {
+      "id": "covertree_vscode_package_version",
+      "label": "version",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L3"
+    },
+    {
+      "id": "covertree_vscode_package_description",
+      "label": "description",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L4"
+    },
+    {
+      "id": "covertree_vscode_package_license",
+      "label": "license",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L5"
+    },
+    {
+      "id": "covertree_vscode_package_author",
+      "label": "author",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L6"
+    },
+    {
+      "id": "covertree_vscode_package_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L7"
+    },
+    {
+      "id": "covertree_vscode_package_repository",
+      "label": "repository",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L8"
+    },
+    {
+      "id": "covertree_vscode_package_repository_type",
+      "label": "type",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L9"
+    },
+    {
+      "id": "covertree_vscode_package_repository_url",
+      "label": "url",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L10"
+    },
+    {
+      "id": "covertree_vscode_package_engines",
+      "label": "engines",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L12"
+    },
+    {
+      "id": "covertree_vscode_package_engines_node",
+      "label": "node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L13"
+    },
+    {
+      "id": "covertree_vscode_package_engines_npm",
+      "label": "npm",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L14"
+    },
+    {
+      "id": "covertree_vscode_package_workspaces",
+      "label": "workspaces",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L16"
+    },
+    {
+      "id": "covertree_vscode_package_scripts",
+      "label": "scripts",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L22"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_install_all",
+      "label": "install-all",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L23"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_dev",
+      "label": "dev",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L24"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_build",
+      "label": "build",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L25"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_test",
+      "label": "test",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L26"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_test_watch",
+      "label": "test:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L27"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_test_coverage",
+      "label": "test:coverage",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L28"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_lint",
+      "label": "lint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L29"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_lint_fix",
+      "label": "lint:fix",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L30"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_format",
+      "label": "format",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L31"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_format_check",
+      "label": "format:check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L32"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_clean",
+      "label": "clean",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L33"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_clean_root",
+      "label": "clean-root",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L34"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_type_check",
+      "label": "type-check",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L35"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_type_check_watch",
+      "label": "type-check:watch",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L36"
+    },
+    {
+      "id": "covertree_vscode_package_scripts_precommit",
+      "label": "precommit",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L37"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies",
+      "label": "devDependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L39"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_eslint_js",
+      "label": "@eslint/js",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L40"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_types_cors",
+      "label": "@types/cors",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L41"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_types_node",
+      "label": "@types/node",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L42"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_typescript_eslint_eslint_plugin",
+      "label": "@typescript-eslint/eslint-plugin",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L43"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_typescript_eslint_parser",
+      "label": "@typescript-eslint/parser",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L44"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_eslint",
+      "label": "eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L45"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_eslint_config_prettier",
+      "label": "eslint-config-prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L46"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_eslint_plugin_import",
+      "label": "eslint-plugin-import",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L47"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_prettier",
+      "label": "prettier",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L48"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_rimraf",
+      "label": "rimraf",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L49"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_typescript",
+      "label": "typescript",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L50"
+    },
+    {
+      "id": "covertree_vscode_package_devdependencies_typescript_eslint",
+      "label": "typescript-eslint",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L51"
+    },
+    {
+      "id": "covertree_vscode_package_packagemanager",
+      "label": "packageManager",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L53"
+    },
+    {
+      "id": "covertree_vscode_package_dependencies",
+      "label": "dependencies",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L54"
+    },
+    {
+      "id": "covertree_vscode_package_dependencies_cors",
+      "label": "cors",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L55"
+    },
+    {
+      "id": "covertree_vscode_package_dependencies_jsdom",
+      "label": "jsdom",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": "L56"
+    }
+  ],
+  "edges": [
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_name",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L2",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_version",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L3",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_description",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L4",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_license",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L5",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_author",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L6",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L7",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_repository",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L8",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_repository",
+      "target": "covertree_vscode_package_repository_type",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L9",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_repository",
+      "target": "covertree_vscode_package_repository_url",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L10",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_engines",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L12",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_engines",
+      "target": "covertree_vscode_package_engines_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L13",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_engines",
+      "target": "covertree_vscode_package_engines_npm",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L14",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_workspaces",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_workspaces",
+      "target": "ref_apps",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_workspaces",
+      "target": "ref_desktop",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_workspaces",
+      "target": "ref_tools",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_workspaces",
+      "target": "ref_shared",
+      "relation": "extends",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L16",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_scripts",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L22",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_install_all",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L23",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_dev",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L24",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_build",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L25",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_test",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L26",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_test_watch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L27",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_test_coverage",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_lint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L29",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_lint_fix",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L30",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_format",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L31",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_format_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L32",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_clean",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L33",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_clean_root",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L34",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_type_check",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L35",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_type_check_watch",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_scripts",
+      "target": "covertree_vscode_package_scripts_precommit",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_devdependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L39",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_eslint_js",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_eslint_js",
+      "target": "eslint_js",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L40",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_types_cors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_types_cors",
+      "target": "types_cors",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L41",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_types_node",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_types_node",
+      "target": "types_node",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L42",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_typescript_eslint_eslint_plugin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_typescript_eslint_eslint_plugin",
+      "target": "typescript_eslint_eslint_plugin",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L43",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_typescript_eslint_parser",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_typescript_eslint_parser",
+      "target": "typescript_eslint_parser",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L44",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_eslint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_eslint",
+      "target": "eslint",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L45",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_eslint_config_prettier",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_eslint_config_prettier",
+      "target": "eslint_config_prettier",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L46",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_eslint_plugin_import",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_eslint_plugin_import",
+      "target": "eslint_plugin_import",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L47",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_prettier",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_prettier",
+      "target": "prettier",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L48",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_rimraf",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_rimraf",
+      "target": "rimraf",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L49",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_typescript",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_typescript",
+      "target": "typescript",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L50",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies",
+      "target": "covertree_vscode_package_devdependencies_typescript_eslint",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_devdependencies_typescript_eslint",
+      "target": "typescript_eslint",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L51",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_packagemanager",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "c_users_anwender_onedrive_dokumente_git_covertree_vscode_package_json",
+      "target": "covertree_vscode_package_dependencies",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_dependencies",
+      "target": "covertree_vscode_package_dependencies_cors",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_dependencies_cors",
+      "target": "cors",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L55",
+      "weight": 1.0,
+      "context": "import"
+    },
+    {
+      "source": "covertree_vscode_package_dependencies",
+      "target": "covertree_vscode_package_dependencies_jsdom",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "covertree_vscode_package_dependencies_jsdom",
+      "target": "jsdom",
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "package.json",
+      "source_location": "L56",
+      "weight": 1.0,
+      "context": "import"
+    }
+  ]
+}

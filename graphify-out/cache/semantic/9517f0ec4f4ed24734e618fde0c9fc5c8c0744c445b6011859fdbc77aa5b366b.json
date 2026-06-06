@@ -1,1 +1,75 @@
-{"nodes": [{"id": "workflows_ci", "label": "CI GitHub Actions Workflow", "file_type": "document", "source_file": ".github/workflows/ci.yml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "concept_ci_pipeline", "label": "CI Pipeline (lint, test, build, security)", "file_type": "concept", "source_file": ".github/workflows/ci.yml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "concept_trivy_security_scan", "label": "Trivy Vulnerability Scanner", "file_type": "concept", "source_file": ".github/workflows/ci.yml", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "workflows_ci", "target": "concept_ci_pipeline", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".github/workflows/ci.yml", "source_location": "line 13", "weight": 1.0}, {"source": "workflows_ci", "target": "concept_trivy_security_scan", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".github/workflows/ci.yml", "source_location": "line 119", "weight": 1.0}], "hyperedges": [{"id": "ci_quality_gates", "label": "CI Quality Gates (lint, test, build, security)", "nodes": ["workflows_ci", "concept_ci_pipeline", "concept_trivy_security_scan", "concept_typescript_strict_mode"], "relation": "implement", "confidence": "EXTRACTED", "confidence_score": 0.9, "source_file": ".github/workflows/ci.yml"}]}
+{
+  "nodes": [
+    {
+      "id": "workflows_ci",
+      "label": "CI GitHub Actions Workflow",
+      "file_type": "document",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_ci_pipeline",
+      "label": "CI Pipeline (lint, test, build, security)",
+      "file_type": "concept",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_trivy_security_scan",
+      "label": "Trivy Vulnerability Scanner",
+      "file_type": "concept",
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "workflows_ci",
+      "target": "concept_ci_pipeline",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "line 13",
+      "weight": 1.0
+    },
+    {
+      "source": "workflows_ci",
+      "target": "concept_trivy_security_scan",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/workflows/ci.yml",
+      "source_location": "line 119",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [
+    {
+      "id": "ci_quality_gates",
+      "label": "CI Quality Gates (lint, test, build, security)",
+      "nodes": [
+        "workflows_ci",
+        "concept_ci_pipeline",
+        "concept_trivy_security_scan",
+        "concept_typescript_strict_mode"
+      ],
+      "relation": "implement",
+      "confidence": "EXTRACTED",
+      "confidence_score": 0.9,
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ]
+}

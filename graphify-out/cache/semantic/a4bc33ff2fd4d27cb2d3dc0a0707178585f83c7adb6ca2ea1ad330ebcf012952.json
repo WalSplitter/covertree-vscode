@@ -1,1 +1,27 @@
-{"nodes": [{"id": "web_backend_package", "label": "@base-template/web-backend Package", "file_type": "document", "source_file": "apps/web-backend/package.json", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": [{"id": "monorepo_express_apps", "label": "Express-based Backend Applications", "nodes": ["api_package", "web_backend_package", "src_index_app", "utils_logger_logger"], "relation": "implement", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "apps/web-backend/package.json"}]}
+{
+  "nodes": [
+    {
+      "id": "web_backend_package",
+      "label": "@base-template/web-backend Package",
+      "file_type": "document",
+      "source_file": "apps/web-backend/package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": [
+    {
+      "id": "monorepo_express_apps",
+      "label": "Express-based Backend Applications",
+      "nodes": ["api_package", "web_backend_package", "src_index_app", "utils_logger_logger"],
+      "relation": "implement",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "apps/web-backend/package.json"
+    }
+  ]
+}

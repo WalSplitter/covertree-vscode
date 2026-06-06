@@ -1,1 +1,204 @@
-{"nodes": [{"id": "readme_base_project_template", "label": "Base Project Template", "file_type": "document", "source_file": "README.md", "source_location": null, "source_url": "https://github.com/WalSplitter/base-project-template", "captured_at": null, "author": "WalSplitter", "contributor": null}, {"id": "readme_npm_workspaces_monorepo", "label": "npm Workspaces Monorepo Setup", "file_type": "concept", "source_file": "README.md", "source_location": "Monorepo Workspace Structure", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_github_copilot_integration", "label": "GitHub Copilot Integration", "file_type": "concept", "source_file": "README.md", "source_location": "With GitHub Copilot", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_claude_commands", "label": "Claude Slash Commands", "file_type": "concept", "source_file": "README.md", "source_location": "With Claude", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_tech_stack_frontend", "label": "Frontend Technology Stack", "file_type": "concept", "source_file": "README.md", "source_location": "Technology Stack - Frontend", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_tech_stack_backend", "label": "Backend Technology Stack", "file_type": "concept", "source_file": "README.md", "source_location": "Technology Stack - Backend", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_security_features", "label": "Built-In Security Features", "file_type": "concept", "source_file": "README.md", "source_location": "Security Features", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "readme_base_project_template", "target": "readme_npm_workspaces_monorepo", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Monorepo Workspace Structure", "weight": 1.0}, {"source": "readme_base_project_template", "target": "readme_github_copilot_integration", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "With GitHub Copilot", "weight": 1.0}, {"source": "readme_base_project_template", "target": "readme_claude_commands", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "With Claude", "weight": 1.0}, {"source": "readme_base_project_template", "target": "readme_tech_stack_frontend", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Technology Stack", "weight": 1.0}, {"source": "readme_base_project_template", "target": "readme_tech_stack_backend", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Technology Stack", "weight": 1.0}, {"source": "readme_base_project_template", "target": "readme_security_features", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Security Features", "weight": 1.0}, {"source": "readme_base_project_template", "target": "security_vulnerability_reporting", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Security Best Practices", "weight": 1.0}, {"source": "readme_base_project_template", "target": "architecture_monorepo_decision", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Architecture & Design", "weight": 1.0}, {"source": "readme_base_project_template", "target": "adr_001_monorepo_npm_workspaces", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Architecture Decisions (ADRs)", "weight": 1.0}, {"source": "readme_npm_workspaces_monorepo", "target": "adr_001_monorepo_npm_workspaces", "relation": "implements", "confidence": "INFERRED", "confidence_score": 0.95, "source_file": "README.md", "source_location": "Monorepo Workspace Structure", "weight": 1.0}, {"source": "readme_security_features", "target": "security_jwt_auth", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Security Features - JWT Authentication", "weight": 1.0}, {"source": "readme_security_features", "target": "security_input_validation", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": "Security Features - Input Validation", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "readme_base_project_template",
+      "label": "Base Project Template",
+      "file_type": "document",
+      "source_file": "README.md",
+      "source_location": null,
+      "source_url": "https://github.com/WalSplitter/base-project-template",
+      "captured_at": null,
+      "author": "WalSplitter",
+      "contributor": null
+    },
+    {
+      "id": "readme_npm_workspaces_monorepo",
+      "label": "npm Workspaces Monorepo Setup",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "Monorepo Workspace Structure",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_github_copilot_integration",
+      "label": "GitHub Copilot Integration",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "With GitHub Copilot",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_claude_commands",
+      "label": "Claude Slash Commands",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "With Claude",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_tech_stack_frontend",
+      "label": "Frontend Technology Stack",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "Technology Stack - Frontend",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_tech_stack_backend",
+      "label": "Backend Technology Stack",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "Technology Stack - Backend",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "readme_security_features",
+      "label": "Built-In Security Features",
+      "file_type": "concept",
+      "source_file": "README.md",
+      "source_location": "Security Features",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "readme_base_project_template",
+      "target": "readme_npm_workspaces_monorepo",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Monorepo Workspace Structure",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "readme_github_copilot_integration",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "With GitHub Copilot",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "readme_claude_commands",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "With Claude",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "readme_tech_stack_frontend",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Technology Stack",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "readme_tech_stack_backend",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Technology Stack",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "readme_security_features",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Security Features",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "security_vulnerability_reporting",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Security Best Practices",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "architecture_monorepo_decision",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Architecture & Design",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_base_project_template",
+      "target": "adr_001_monorepo_npm_workspaces",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Architecture Decisions (ADRs)",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_npm_workspaces_monorepo",
+      "target": "adr_001_monorepo_npm_workspaces",
+      "relation": "implements",
+      "confidence": "INFERRED",
+      "confidence_score": 0.95,
+      "source_file": "README.md",
+      "source_location": "Monorepo Workspace Structure",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_security_features",
+      "target": "security_jwt_auth",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Security Features - JWT Authentication",
+      "weight": 1.0
+    },
+    {
+      "source": "readme_security_features",
+      "target": "security_input_validation",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "README.md",
+      "source_location": "Security Features - Input Validation",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

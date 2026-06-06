@@ -1,1 +1,92 @@
-{"nodes": [{"id": "shared_readme_shared_types", "label": "Shared TypeScript Types Library", "file_type": "document", "source_file": "shared/README.md", "source_location": "shared/types", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "shared_readme_shared_utils", "label": "Shared Utility Functions Library", "file_type": "document", "source_file": "shared/README.md", "source_location": "shared/utils", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "shared_readme_shared_errors", "label": "Shared Custom Error Classes", "file_type": "code", "source_file": "shared/README.md", "source_location": "shared/errors", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "shared_readme_shared_logger", "label": "Shared Logger Library (Winston)", "file_type": "code", "source_file": "shared/README.md", "source_location": "shared/logger", "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "shared_readme_iuser_interface", "label": "IUser Domain Model Interface", "file_type": "code", "source_file": "shared/README.md", "source_location": "Shared Type System - Domain Models", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "shared_readme_shared_errors", "target": "architecture_error_hierarchy", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "shared/README.md", "source_location": "Shared Error Handling", "weight": 1.0}, {"source": "shared_readme_shared_types", "target": "shared_readme_iuser_interface", "relation": "implements", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "shared/README.md", "source_location": "Shared Type System - Domain Models", "weight": 1.0}, {"source": "shared_readme_shared_logger", "target": "apps_readme_api_service", "relation": "shares_data_with", "confidence": "INFERRED", "confidence_score": 0.75, "source_file": "shared/README.md", "source_location": "Using Shared Libraries", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "shared_readme_shared_types",
+      "label": "Shared TypeScript Types Library",
+      "file_type": "document",
+      "source_file": "shared/README.md",
+      "source_location": "shared/types",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_readme_shared_utils",
+      "label": "Shared Utility Functions Library",
+      "file_type": "document",
+      "source_file": "shared/README.md",
+      "source_location": "shared/utils",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_readme_shared_errors",
+      "label": "Shared Custom Error Classes",
+      "file_type": "code",
+      "source_file": "shared/README.md",
+      "source_location": "shared/errors",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_readme_shared_logger",
+      "label": "Shared Logger Library (Winston)",
+      "file_type": "code",
+      "source_file": "shared/README.md",
+      "source_location": "shared/logger",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "shared_readme_iuser_interface",
+      "label": "IUser Domain Model Interface",
+      "file_type": "code",
+      "source_file": "shared/README.md",
+      "source_location": "Shared Type System - Domain Models",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "shared_readme_shared_errors",
+      "target": "architecture_error_hierarchy",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "shared/README.md",
+      "source_location": "Shared Error Handling",
+      "weight": 1.0
+    },
+    {
+      "source": "shared_readme_shared_types",
+      "target": "shared_readme_iuser_interface",
+      "relation": "implements",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "shared/README.md",
+      "source_location": "Shared Type System - Domain Models",
+      "weight": 1.0
+    },
+    {
+      "source": "shared_readme_shared_logger",
+      "target": "apps_readme_api_service",
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "shared/README.md",
+      "source_location": "Using Shared Libraries",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

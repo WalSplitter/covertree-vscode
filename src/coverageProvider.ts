@@ -101,9 +101,7 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
       .getConfiguration('covertree')
       .get<string>('coverageFile', 'coverage/coverage-summary.json');
 
-    return path.isAbsolute(configured)
-      ? configured
-      : path.join(this.workspaceRoot, configured);
+    return path.isAbsolute(configured) ? configured : path.join(this.workspaceRoot, configured);
   }
 
   private getThreshold(): number {

@@ -8,11 +8,11 @@ VS Code extension that shows Jest code coverage indicators next to files in the 
 
 ## Indicators
 
-| Badge | Meaning |
-|-------|---------|
-| `○` grey | No coverage data for this file |
-| `●` green | Coverage ≥ threshold (default: 75%) |
-| `✗` red | Coverage below threshold **or** test failures |
+| Badge     | Meaning                                       |
+| --------- | --------------------------------------------- |
+| `○` grey  | No coverage data for this file                |
+| `●` green | Coverage ≥ threshold (default: 75%)           |
+| `✗` red   | Coverage below threshold **or** test failures |
 
 ## Requirements
 
@@ -35,12 +35,12 @@ This produces `coverage/coverage-summary.json`, which CoverTree reads.
 
 ## Configuration
 
-| Setting | Default | Description |
-|---------|---------|-------------|
-| `covertree.threshold` | `75` | Minimum coverage % for green indicator |
-| `covertree.coverageFile` | `coverage/coverage-summary.json` | Path to Jest summary JSON |
-| `covertree.include` | `["**/*.ts","**/*.tsx","**/*.js","**/*.jsx"]` | File patterns to decorate |
-| `covertree.exclude` | `["**/node_modules/**","**/out/**","**/dist/**","**/coverage/**"]` | Patterns to skip |
+| Setting                  | Default                                                            | Description                            |
+| ------------------------ | ------------------------------------------------------------------ | -------------------------------------- |
+| `covertree.threshold`    | `75`                                                               | Minimum coverage % for green indicator |
+| `covertree.coverageFile` | `coverage/coverage-summary.json`                                   | Path to Jest summary JSON              |
+| `covertree.include`      | `["**/*.ts","**/*.tsx","**/*.js","**/*.jsx"]`                      | File patterns to decorate              |
+| `covertree.exclude`      | `["**/node_modules/**","**/out/**","**/dist/**","**/coverage/**"]` | Patterns to skip                       |
 
 ## Commands
 

@@ -1,1 +1,28 @@
-{"nodes": [{"id": "package_json_covertree", "label": "CoverTree package.json", "file_type": "document", "source_file": "package.json", "source_location": null, "source_url": "https://github.com/mgrosshauser/covertree-vscode", "captured_at": null, "author": "mgrosshauser", "contributor": null}], "edges": [{"source": "package_json_covertree", "target": "src_extension_activate", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "package.json", "source_location": "line 31", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "package_json_covertree",
+      "label": "CoverTree package.json",
+      "file_type": "document",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": "https://github.com/mgrosshauser/covertree-vscode",
+      "captured_at": null,
+      "author": "mgrosshauser",
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "package_json_covertree",
+      "target": "src_extension_activate",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "line 31",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

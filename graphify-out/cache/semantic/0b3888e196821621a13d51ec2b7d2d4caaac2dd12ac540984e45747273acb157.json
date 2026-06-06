@@ -1,1 +1,39 @@
-{"nodes": [{"id": "prompts_05_testing_strategy", "label": "Prompt: Testing Strategy", "file_type": "document", "source_file": ".github/prompts/05-testing-strategy.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "concept_aaa_test_pattern", "label": "AAA Pattern (Arrange-Act-Assert)", "file_type": "concept", "source_file": ".github/prompts/05-testing-strategy.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "prompts_05_testing_strategy", "target": "concept_aaa_test_pattern", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": ".github/prompts/05-testing-strategy.md", "source_location": "line 100", "weight": 1.0}], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "prompts_05_testing_strategy",
+      "label": "Prompt: Testing Strategy",
+      "file_type": "document",
+      "source_file": ".github/prompts/05-testing-strategy.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "concept_aaa_test_pattern",
+      "label": "AAA Pattern (Arrange-Act-Assert)",
+      "file_type": "concept",
+      "source_file": ".github/prompts/05-testing-strategy.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "prompts_05_testing_strategy",
+      "target": "concept_aaa_test_pattern",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": ".github/prompts/05-testing-strategy.md",
+      "source_location": "line 100",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

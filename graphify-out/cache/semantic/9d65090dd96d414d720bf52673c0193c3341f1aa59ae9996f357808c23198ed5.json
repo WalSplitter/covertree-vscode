@@ -1,1 +1,17 @@
-{"nodes": [{"id": "middleware_not_found_notfound", "label": "notFound Middleware", "file_type": "code", "source_file": "apps/web-backend/src/middleware/not-found.ts", "source_location": "line 3-8", "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [], "hyperedges": []}
+{
+  "nodes": [
+    {
+      "id": "middleware_not_found_notfound",
+      "label": "notFound Middleware",
+      "file_type": "code",
+      "source_file": "apps/web-backend/src/middleware/not-found.ts",
+      "source_location": "line 3-8",
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [],
+  "hyperedges": []
+}
