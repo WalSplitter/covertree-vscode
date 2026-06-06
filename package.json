@@ -1,58 +1,105 @@
 {
-  "name": "base-project-template",
-  "version": "1.0.0",
-  "description": "Professional, production-ready template for modern applications with best practices and GitHub Copilot optimization",
+  "name": "covertree",
+  "displayName": "CoverTree",
+  "description": "Jest code coverage indicators in the VS Code file explorer",
+  "version": "0.1.0",
+  "publisher": "mgrosshauser",
   "license": "MIT",
-  "author": "WalSplitter",
-  "type": "module",
+  "engines": {
+    "vscode": "^1.85.0",
+    "node": ">=18.0.0"
+  },
+  "categories": [
+    "Testing",
+    "Other"
+  ],
+  "keywords": [
+    "jest",
+    "coverage",
+    "test",
+    "typescript",
+    "javascript"
+  ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/WalSplitter/base-project-template"
+    "url": "https://github.com/mgrosshauser/covertree-vscode"
   },
-  "engines": {
-    "node": ">=18.0.0",
-    "npm": ">=9.0.0"
-  },
-  "workspaces": [
-    "apps/*",
-    "desktop/*",
-    "tools/*",
-    "shared/*"
+  "activationEvents": [
+    "workspaceContains:**/jest.config.*",
+    "workspaceContains:**/coverage/coverage-summary.json"
   ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "covertree.refresh",
+        "title": "CoverTree: Refresh Coverage"
+      }
+    ],
+    "configuration": {
+      "title": "CoverTree",
+      "properties": {
+        "covertree.threshold": {
+          "type": "number",
+          "default": 75,
+          "minimum": 0,
+          "maximum": 100,
+          "description": "Minimum coverage percentage to show passing indicator."
+        },
+        "covertree.coverageFile": {
+          "type": "string",
+          "default": "coverage/coverage-summary.json",
+          "description": "Relative path to Jest coverage-summary.json from workspace root."
+        },
+        "covertree.include": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "**/*.ts",
+            "**/*.tsx",
+            "**/*.js",
+            "**/*.jsx"
+          ],
+          "description": "Glob patterns of files to show coverage decorations on."
+        },
+        "covertree.exclude": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "default": [
+            "**/node_modules/**",
+            "**/out/**",
+            "**/dist/**",
+            "**/coverage/**"
+          ],
+          "description": "Glob patterns to exclude from coverage decorations."
+        }
+      }
+    }
+  },
   "scripts": {
-    "install-all": "npm install",
-    "dev": "npm run dev --workspaces",
-    "build": "npm run build --workspaces --if-present",
-    "test": "npm run test --workspaces --if-present",
-    "test:watch": "npm run test:watch --workspaces",
-    "test:coverage": "npm run test:coverage --workspaces --if-present",
-    "lint": "npm run lint --workspaces --if-present",
-    "lint:fix": "npm run lint:fix --workspaces --if-present",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "build": "npm run compile",
+    "lint": "eslint src",
+    "type-check": "tsc --noEmit",
     "format": "prettier --write .",
     "format:check": "prettier --check .",
-    "clean": "npm run clean --workspaces && npm run clean-root",
-    "clean-root": "rimraf node_modules package-lock.json",
-    "type-check": "npm run type-check --workspaces --if-present",
-    "type-check:watch": "npm run type-check:watch --workspaces",
-    "precommit": "npm run lint && npm run type-check && npm run format:check"
+    "package": "vsce package",
+    "publish": "vsce publish"
   },
   "devDependencies": {
-    "@eslint/js": "^9.39.4",
-    "@types/cors": "^2.8.19",
-    "@types/node": "^20.0.0",
+    "@types/node": "^20.19.42",
+    "@types/vscode": "^1.85.0",
     "@typescript-eslint/eslint-plugin": "^8.0.0",
     "@typescript-eslint/parser": "^8.0.0",
+    "@vscode/vsce": "^3.0.0",
     "eslint": "^9.0.0",
     "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-import": "^2.29.0",
     "prettier": "^3.0.0",
-    "rimraf": "^5.0.0",
-    "typescript": "^5.0.0",
-    "typescript-eslint": "^8.60.1"
-  },
-  "packageManager": "npm@9.0.0",
-  "dependencies": {
-    "cors": "^2.8.6",
-    "jsdom": "^29.1.1"
+    "typescript": "^5.0.0"
   }
 }
