@@ -4,6 +4,8 @@ import { parseCoverageSummary, getFileCoverage, getOverallPct } from './coverage
 import { CoverageSummary, CoverageStatus } from './types';
 
 const WATCHED_EXTENSIONS = /\.(ts|tsx|js|jsx|mjs|cjs)$/;
+const TEST_FILE = /\.(test|spec)\.(ts|tsx|js|jsx|mjs|cjs)$/i;
+const CONFIG_FILE = /\.(config|rc)\.(ts|tsx|js|jsx|mjs|cjs)$/i;
 
 export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.Disposable {
   private readonly _onDidChangeFileDecorations = new vscode.EventEmitter<
@@ -45,6 +47,9 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
 
   provideFileDecoration(uri: vscode.Uri): vscode.FileDecoration | undefined {
     if (!WATCHED_EXTENSIONS.test(uri.fsPath)) {
+      return undefined;
+    }
+    if (TEST_FILE.test(uri.fsPath) || CONFIG_FILE.test(uri.fsPath)) {
       return undefined;
     }
 
