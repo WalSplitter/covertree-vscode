@@ -1,8 +1,8 @@
 {
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.claude\\settings.json": {
-    "size": 439,
-    "mtime_ns": 1780780295334519500,
-    "hash": "96ca50eff461ffea3a0fb654dae498b07ec2107f84800a9e95d2e61c1b93dda7"
+    "size": 592,
+    "mtime_ns": 1780835532086345200,
+    "hash": "dfdbcc3cdb94bef3b1b1ee311a4a167c2f8e8940fa21f0ea4feedf2355705c0c"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.prettierrc.json": {
     "size": 256,
@@ -35,9 +35,9 @@
     "hash": "c4feef5de136f1c746defae29f8059712ead6b4be62d6391cd2031b8b80412b1"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\package.json": {
-    "size": 2725,
-    "mtime_ns": 1780780412864462600,
-    "hash": "82cf873682ecaacf1a77e87f1a4e0fab9b9a57c6411cbc9767f6b09016855b45"
+    "size": 4664,
+    "mtime_ns": 1780832897361106100,
+    "hash": "5df35862f3a7d71bfe06cd6415c65977e7d85bf7d58da6e5973503215ea47995"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\renovate.json": {
     "size": 429,
@@ -340,9 +340,9 @@
     "hash": "bf313f476d51ca025ca6c7f47c2ebdb712fa9b1ad20147e3c44c1213329ae7f0"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\README.md": {
-    "size": 2190,
-    "mtime_ns": 1780780029057502300,
-    "hash": "f257b6ce22b6ca925ba2caa4f36153a7aaba73c346ff58518d5967c453e2db33"
+    "size": 5388,
+    "mtime_ns": 1780829573265835700,
+    "hash": "90e24377d647a0c45405fa9a382d1b0deac7d1cc655eb449c3cb2bb410171073"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\SECURITY.md": {
     "size": 2879,
@@ -420,14 +420,14 @@
     "hash": "bfa794782fef0c819786777aa17441c9ee2a686ce0014dfd3d24f7384da77571"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.claude\\settings.local.json": {
-    "size": 446,
-    "mtime_ns": 1780781952929119600,
-    "hash": "c400607aa073d3ce8f0bb614ea86f3a6c94a01f41c0d9fffd2848ea679385e92"
+    "size": 554,
+    "mtime_ns": 1780828850046922800,
+    "hash": "fa20f834e9c2c8eca563e6e13e09fd54a340df7600a21985dacf4702919f0cd3"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.vscode\\launch.json": {
-    "size": 342,
-    "mtime_ns": 1780781500257312200,
-    "hash": "9a8eeec9c50cae414fd6a443272b52bdbe8b81091ac9fa16e1b58be7c511d9aa"
+    "size": 310,
+    "mtime_ns": 1780783401093864700,
+    "hash": "70440d56d12753fc95b6c3b7fdf0e1b7630fbd396480382b2b70be91c7c5fedf"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.vscode\\tasks.json": {
     "size": 561,
@@ -435,23 +435,93 @@
     "hash": "1c4fed24d4e2c6b3e24a993f86d11bbe066e19f1e2660a6d82c2217164bcc7db"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\coverageParser.ts": {
-    "size": 1524,
-    "mtime_ns": 1780781862904222000,
-    "hash": "f307f5c4ad17998478d4c40d05d131f648597f09831d2be8b81d0498b5a0e63e"
+    "size": 1671,
+    "mtime_ns": 1780825548432142800,
+    "hash": "faa24a5a117cd1877f731aa53e3b76fd3cab35860e945c540ab180f676387110"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\coverageProvider.ts": {
-    "size": 4353,
-    "mtime_ns": 1780779993237090300,
-    "hash": "99506a1795146078cb8817fc768017387feb97a1051cfc029af5b9bc6a856776"
+    "size": 5979,
+    "mtime_ns": 1780829567169847600,
+    "hash": "c0e50a82a8baedfbe7bcc847481c3a5b6d290f052cc057d532dad2334cc4ea42"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\extension.ts": {
-    "size": 837,
-    "mtime_ns": 1780780000043155500,
-    "hash": "5b15fe4c96ef8573a325f85752baee59e1e8a80e757a167214c540327505f680"
+    "size": 4192,
+    "mtime_ns": 1780831654234345400,
+    "hash": "2b32c5443cf40eae535738edf80aebb7db1c72e139d142882e69a7373287ea93"
   },
   "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\types.ts": {
-    "size": 467,
-    "mtime_ns": 1780779965307338200,
-    "hash": "41aa1a153240494eca383c5c212fee6e347ae4422fd8cb628d24855bc8c234eb"
+    "size": 479,
+    "mtime_ns": 1780828621141028800,
+    "hash": "0396d6253db40c898398d4ac90ecb546cabbaeabc9ee0616c5910bf9415f17eb"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\eslint.config.mjs": {
+    "size": 841,
+    "mtime_ns": 1780779952803733400,
+    "hash": "62850d27363761c9ec91af5ae19155ee84289a59ea6d3eca601f33d984e04298"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\scripts\\generate-icon.js": {
+    "size": 5264,
+    "mtime_ns": 1780832005008799400,
+    "hash": "4ce03a725e4b0fc4423847f9165cd2c4cc832c1de7784a413b71670518d00826"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\coverageTreeProvider.ts": {
+    "size": 9170,
+    "mtime_ns": 1780831654212341200,
+    "hash": "760bf711bff61976050f846d464d8f344d6e5254d1e48930c1b7ebbb6c01377a"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\detailParser.ts": {
+    "size": 2640,
+    "mtime_ns": 1780826209175170800,
+    "hash": "cb95c989c38d2f038febc14a60e67e398c1bc4a7a6c72b6c4d2c8fcfe0d890ea"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\src\\gutterProvider.ts": {
+    "size": 4913,
+    "mtime_ns": 1780828730627325400,
+    "hash": "e0eaea30091ec289eb01a29e7bed5bd153dc42f1930248ef1c374777ffe6eca0"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\.github\\workflows\\release.yml": {
+    "size": 611,
+    "mtime_ns": 1780834606113833400,
+    "hash": "5ce473dea1186272115a6eb7a2fb9a6c2eeb51245c955a7dc47ed7ec06e59267"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\images\\explorer-badges.png": {
+    "size": 12034,
+    "mtime_ns": 1780829679686257300,
+    "hash": "b2fea5d957bde3930be274200dea8a8c1afa12be67bd49a83a5bc013343f3fac"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\images\\gutter-markers-complete.png": {
+    "size": 37464,
+    "mtime_ns": 1780828161497462900,
+    "hash": "e86d60674239d401ba5f2ac221fb492765dd28a29f5abf7396f14801858b12cd"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\images\\gutter-markers-incomplete.png": {
+    "size": 67609,
+    "mtime_ns": 1780828212545770700,
+    "hash": "7a7de775ff3c35bd8bb54ae484002b1fe838979177d5d0a87f508fa3b2fb77f5"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\docs\\images\\tooltip-detail.png": {
+    "size": 11915,
+    "mtime_ns": 1780829767453239500,
+    "hash": "86627ceb66e010c4a2c7a5935d956e7c75651c6803850e6cc11f85bc01d7e609"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\resources\\covered.svg": {
+    "size": 134,
+    "mtime_ns": 1780825526051710200,
+    "hash": "ba8eb2a7ef9eb93b878bd3439adb5a737bd54936aaf47362fb4987c3494fe3dc"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\resources\\icon.png": {
+    "size": 741,
+    "mtime_ns": 1780831881752403500,
+    "hash": "addf24048b9d02505b84f14057e08be0032d29ce41bb37e552d1578c409aab44"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\resources\\partial.svg": {
+    "size": 134,
+    "mtime_ns": 1780825534100741800,
+    "hash": "2c39273c4220e0af6be7cd8631e73cc6681d29006b208e0c1d5c0b2590d37feb"
+  },
+  "C:\\Users\\Anwender\\OneDrive\\Dokumente\\Git\\covertree-vscode\\resources\\uncovered.svg": {
+    "size": 134,
+    "mtime_ns": 1780825530228913200,
+    "hash": "7e66ce6071414684078a870d59db9854b804b559ebbe632cb5a08757343e3b76"
   }
 }

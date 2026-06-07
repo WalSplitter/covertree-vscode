@@ -13,7 +13,10 @@
       "Bash(make *)",
       "Bash(docker-compose *)",
       "Bash(node *)",
-      "Bash(npx *)"
+      "Bash(npx *)",
+      "Bash(Test-Path \"c:\\\\Users\\\\Anwender\\\\OneDrive\\\\Dokumente\\\\Git\\\\covertree-vscode\\\\graphify-out\\\\graph.json\")",
+      "Read(//c/Users/Anwender/.claude/skills/graphify/references/**)",
+      "Bash(python3 -c ' *)"
     ],
     "deny": ["Bash(curl * | bash)", "Bash(wget * | bash)"]
   }

@@ -1,90 +1,87 @@
-# Graph Report - . (2026-06-06)
+# Graph Report - . (2026-06-07)
 
 ## Corpus Check
 
-- 14 files · ~8,327 words
-- Verdict: corpus is large enough that graph structure adds value.
+- Corpus is ~15,826 words - fits in a single context window. You may not need a graph.
 
 ## Summary
 
-- 558 nodes · 636 edges · 55 communities (36 shown, 19 thin omitted)
-- Extraction: 92% EXTRACTED · 8% INFERRED · 0% AMBIGUOUS · INFERRED: 49 edges (avg confidence: 0.82)
-- Token cost: 0 input · 0 output
+- 355 nodes · 444 edges · 44 communities (22 shown, 22 thin omitted)
+- Extraction: 91% EXTRACTED · 9% INFERRED · 0% AMBIGUOUS · INFERRED: 42 edges (avg confidence: 0.87)
+- Token cost: 6,200 input · 1,850 output
 
 ## Community Hubs (Navigation)
 
-- [[_COMMUNITY_TypeScript Compiler Config|TypeScript Compiler Config]]
-- [[_COMMUNITY_Backend Package Dependencies|Backend Package Dependencies]]
-- [[_COMMUNITY_CLI Template Commands|CLI Template Commands]]
-- [[_COMMUNITY_Extension Package Manifest|Extension Package Manifest]]
-- [[_COMMUNITY_Dev Patterns & Best Practices|Dev Patterns & Best Practices]]
-- [[_COMMUNITY_ADR Architecture Decisions|ADR Architecture Decisions]]
-- [[_COMMUNITY_CoverTree Extension Core|CoverTree Extension Core]]
-- [[_COMMUNITY_Frontend Package Dependencies|Frontend Package Dependencies]]
-- [[_COMMUNITY_Express Backend Package|Express Backend Package]]
-- [[_COMMUNITY_Dev Tool Dependencies|Dev Tool Dependencies]]
-- [[_COMMUNITY_TypeScript Module Config|TypeScript Module Config]]
-- [[_COMMUNITY_Build & Script Automation|Build & Script Automation]]
-- [[_COMMUNITY_Node Package Metadata|Node Package Metadata]]
-- [[_COMMUNITY_Prettier Code Formatting|Prettier Code Formatting]]
-- [[_COMMUNITY_Express Middleware Chain|Express Middleware Chain]]
-- [[_COMMUNITY_TypeScript Path Config|TypeScript Path Config]]
-- [[_COMMUNITY_Renovate Dependency Updates|Renovate Dependency Updates]]
-- [[_COMMUNITY_API Type Interfaces|API Type Interfaces]]
-- [[_COMMUNITY_React TypeScript Config|React TypeScript Config]]
-- [[_COMMUNITY_Architecture Quality Patterns|Architecture Quality Patterns]]
-- [[_COMMUNITY_Infrastructure & Deployment|Infrastructure & Deployment]]
-- [[_COMMUNITY_Claude Code Permissions|Claude Code Permissions]]
-- [[_COMMUNITY_Local Settings Permissions|Local Settings Permissions]]
-- [[_COMMUNITY_Desktop App Templates|Desktop App Templates]]
-- [[_COMMUNITY_CI Security Pipeline|CI Security Pipeline]]
-- [[_COMMUNITY_CLI Tool Templates|CLI Tool Templates]]
-- [[_COMMUNITY_Shared Type Library|Shared Type Library]]
-- [[_COMMUNITY_VS Code Tasks Config|VS Code Tasks Config]]
-- [[_COMMUNITY_Background Job Queue|Background Job Queue]]
-- [[_COMMUNITY_Custom Error Classes|Custom Error Classes]]
-- [[_COMMUNITY_React DOM Render|React DOM Render]]
-- [[_COMMUNITY_Git Workflow Standards|Git Workflow Standards]]
-- [[_COMMUNITY_VS Code Debug Config|VS Code Debug Config]]
-- [[_COMMUNITY_WebSocket Service|WebSocket Service]]
-- [[_COMMUNITY_Git Flow Strategy|Git Flow Strategy]]
-- [[_COMMUNITY_Modularity Principle|Modularity Principle]]
-- [[_COMMUNITY_Scalability Principle|Scalability Principle]]
-- [[_COMMUNITY_TypeScript Decision|TypeScript Decision]]
-- [[_COMMUNITY_Railway Deployment|Railway Deployment]]
+- [[_COMMUNITY_Extension Configuration Properties|Extension Configuration Properties]]
+- [[_COMMUNITY_Extension Manifest|Extension Manifest]]
+- [[_COMMUNITY_Summary Coverage Parser|Summary Coverage Parser]]
+- [[_COMMUNITY_Detail Coverage Parser|Detail Coverage Parser]]
+- [[_COMMUNITY_Icon Generation|Icon Generation]]
+- [[_COMMUNITY_TypeScript Build Config|TypeScript Build Config]]
+- [[_COMMUNITY_Claude Skill Templates|Claude Skill Templates]]
+- [[_COMMUNITY_Coverage Tree View|Coverage Tree View]]
+- [[_COMMUNITY_Coverage Threshold & Docs|Coverage Threshold & Docs]]
+- [[_COMMUNITY_Navigation & Multi-root|Navigation & Multi-root]]
+- [[_COMMUNITY_Code Formatting|Code Formatting]]
+- [[_COMMUNITY_Architecture Decision Records|Architecture Decision Records]]
+- [[_COMMUNITY_Explorer Badge States|Explorer Badge States]]
+- [[_COMMUNITY_Coverage Metrics Display|Coverage Metrics Display]]
+- [[_COMMUNITY_Build Scripts|Build Scripts]]
+- [[_COMMUNITY_Gutter Marker Rendering|Gutter Marker Rendering]]
+- [[_COMMUNITY_Incomplete Coverage UX|Incomplete Coverage UX]]
+- [[_COMMUNITY_Complete Coverage UX|Complete Coverage UX]]
+- [[_COMMUNITY_Extension Icon|Extension Icon]]
+- [[_COMMUNITY_Tool Permissions|Tool Permissions]]
+- [[_COMMUNITY_Local Tool Settings|Local Tool Settings]]
+- [[_COMMUNITY_PNG Drawing Primitives|PNG Drawing Primitives]]
+- [[_COMMUNITY_Dev Environment Config|Dev Environment Config]]
+- [[_COMMUNITY_Release Workflow|Release Workflow]]
+- [[_COMMUNITY_VS Code Launch Config|VS Code Launch Config]]
+- [[_COMMUNITY_VS Code Tasks|VS Code Tasks]]
+- [[_COMMUNITY_CI Pipeline|CI Pipeline]]
+- [[_COMMUNITY_PNG Encoding|PNG Encoding]]
+- [[_COMMUNITY_Code Quality CI|Code Quality CI]]
+- [[_COMMUNITY_Monorepo ADR|Monorepo ADR]]
+- [[_COMMUNITY_GitHub Docs|GitHub Docs]]
+- [[_COMMUNITY_PR Template|PR Template]]
+- [[_COMMUNITY_Bug Report Template|Bug Report Template]]
+- [[_COMMUNITY_Feature Request Template|Feature Request Template]]
+- [[_COMMUNITY_Coverage Activation Event|Coverage Activation Event]]
+- [[_COMMUNITY_Jest Activation Event|Jest Activation Event]]
+- [[_COMMUNITY_Vitest Activation Event|Vitest Activation Event]]
+- [[_COMMUNITY_Gutter Markers Config|Gutter Markers Config]]
+- [[_COMMUNITY_Coverage Threshold Config|Coverage Threshold Config]]
+- [[_COMMUNITY_Coverage Tool Config|Coverage Tool Config]]
 - [[_COMMUNITY_Prettier Config|Prettier Config]]
-- [[_COMMUNITY_Shared Utility Functions|Shared Utility Functions]]
-- [[_COMMUNITY_Build Automation Tool|Build Automation Tool]]
-- [[_COMMUNITY_Create User Request|Create User Request]]
-- [[_COMMUNITY_Login Request Interface|Login Request Interface]]
-- [[_COMMUNITY_Update User Interface|Update User Interface]]
-- [[_COMMUNITY_VS Code Watch Task|VS Code Watch Task]]
+- [[_COMMUNITY_File Watcher|File Watcher]]
+- [[_COMMUNITY_Compile Task|Compile Task]]
+- [[_COMMUNITY_Watch Task|Watch Task]]
 
 ## God Nodes (most connected - your core abstractions)
 
-1. `compilerOptions` - 27 edges
-2. `scripts` - 20 edges
-3. `compilerOptions` - 20 edges
-4. `CoverTreeProvider.refresh()` - 18 edges
-5. `GitHub Copilot Development Guidelines` - 13 edges
-6. `Skill: Backend & Microservices Development` - 13 edges
-7. `Quick Start Command Template` - 12 edges
-8. `scripts` - 11 edges
-9. `scripts` - 11 edges
-10. `scripts` - 11 edges
+1. `CoverageTreeProvider` - 21 edges
+2. `CoverTreeProvider` - 17 edges
+3. `compilerOptions` - 16 edges
+4. `GutterProvider` - 14 edges
+5. `Quick Start Command Template` - 12 edges
+6. `activate()` - 11 edges
+7. `CoverageSummary` - 11 edges
+8. `scripts` - 10 edges
+9. `getDetailFileCoverage()` - 8 edges
+10. `FileCoverage` - 8 edges
 
 ## Surprising Connections (you probably didn't know these)
 
-- `Monorepo Shared Package Patterns` --semantically_similar_to--> `Repository Pattern (data access abstraction)` [AMBIGUOUS] [semantically similar]
-  .github/skills/06-shared-development.md → .claude/commands/backend.md
-- `TypeScript ESLint Integration` --semantically_similar_to--> `TypeScript Strict Mode` [INFERRED] [semantically similar]
-  eslint.config.js → tsconfig.base.json
-- `Define Once Use Everywhere (shared types principle)` --rationale_for--> `npm Workspaces Definition` [INFERRED]
-  .claude/commands/shared.md → package.json
-- `Shared Libraries Command Template` --references--> `IAuthPayload Interface` [EXTRACTED]
-  .claude/commands/shared.md → shared/types/src/index.ts
-- `TypeScript Strict Mode` --references--> `Feature Implementation Command Template` [INFERRED]
-  tsconfig.base.json → .claude/commands/feature.md
+- `Explorer Badges Feature` --conceptually_related_to--> `CoverTreeProvider` [INFERRED]
+  README.md → src/coverageProvider.ts
+- `coverage-final.json` --conceptually_related_to--> `GutterProvider` [INFERRED]
+  README.md → src/gutterProvider.ts
+- `Editor Gutter Markers Feature` --conceptually_related_to--> `GutterProvider` [INFERRED]
+  README.md → src/gutterProvider.ts
+- `Status Bar Feature` --conceptually_related_to--> `CoverTreeProvider.updateStatusBar` [INFERRED]
+  README.md → src/coverageProvider.ts
+- `coverage-summary.json` --conceptually_related_to--> `CoverTreeProvider.refresh` [INFERRED]
+  README.md → src/coverageProvider.ts
 
 ## Import Cycles
 
@@ -92,173 +89,149 @@
 
 ## Hyperedges (group relationships)
 
-- **Coverage Data Pipeline: parse → lookup → percentage → decorate** — src_coverageparser_parsecoveragesummary, src_coverageparser_getfilecoverage, src_coverageparser_getoverallpct, src_coverageprovider_providefiledecoration [EXTRACTED 0.95]
-- **VS Code Extension Lifecycle: activate → register provider + watcher → dispose** — src_extension_activate, src_coverageprovider_covertreeprovider, src_coverageprovider_startWatching, src_coverageprovider_dispose [EXTRACTED 0.95]
+- **Claude Command Registry (all slash command templates)** — commands_quick_start, commands_feature, commands_api, commands_backend, commands_web, commands_tests, commands_shared, commands_bug, commands_refactor, commands_perf, commands_desktop, commands_tools [EXTRACTED 0.95]
 - **CI Quality Gate: lint + typecheck + build + package** — github_workflows_ci, eslint_config_js, tsconfig_json, package_json_covertree [INFERRED 0.85]
+- **Monorepo npm Workspaces Decision Cluster** — adr_001_monorepo_npm_workspaces, claude_adr001_npm_workspaces, setup_adr001_npm_workspaces_setup, readme_npm_workspaces_monorepo [EXTRACTED 1.00]
+- **Coverage Data Pipeline: parse → lookup → compute → display** — src_coverageparser_parsecoveragesummary, src_coverageparser_getfilecoverage, src_coverageparser_getoverallpct [INFERRED 0.90]
+- **Line-Level Coverage Analysis: parse detail → lookup file → compute line map** — src_detailparser_parsedetailcoverage, src_detailparser_getdetailfilecoverage, src_detailparser_getlinecoveragemap [INFERRED 0.90]
+- **Extension Provider Trio: CoverTreeProvider + GutterProvider + CoverageTreeProvider** — src_extension_covertreeprovider, src_extension_gutterprovider, src_extension_coveragetreeprovider [EXTRACTED 1.00]
+- **Coverage Decoration Pipeline: Provider reads data, resolves status, decorates file** — src_coverageprovider_refresh, src_coverageprovider_resolvestatus, src_coverageprovider_providefidecoration [INFERRED 0.90]
+- **Gutter Marker SVG Icons: covered, uncovered, partial decoration types** — src_gutterprovider_coveredtype, src_gutterprovider_uncoveredtype, src_gutterprovider_partialtype [EXTRACTED 1.00]
+- **Tree Build Pipeline: collectFiles → groupIntoTree → renderNode** — src_coveragetreeprovider_collectfiles, src_coveragetreeprovider_groupintotree, src_coveragetreeprovider_rendernode [EXTRACTED 1.00]
 
-## Communities (55 total, 19 thin omitted)
+## Communities (44 total, 22 thin omitted)
 
-### Community 0 - "TypeScript Compiler Config"
+### Community 0 - "Extension Configuration Properties"
 
 Cohesion: 0.05
-Nodes (40): compilerOptions, allowImportingTsExtensions, allowSyntheticDefaultImports, baseUrl, declaration, declarationMap, esModuleInterop, ignoreDeprecations (+32 more)
+Nodes (38): properties, title, configuration, default, description, type, default, description (+30 more)
 
-### Community 1 - "Backend Package Dependencies"
-
-Cohesion: 0.05
-Nodes (40): dependencies, cors, dotenv, express, helmet, joi, jsonwebtoken, pg (+32 more)
-
-### Community 2 - "CLI Template Commands"
+### Community 1 - "Extension Manifest"
 
 Cohesion: 0.06
-Nodes (38): API Endpoint Command Template, Backend & Microservices Command Template, Bug Debug & Fix Command Template, Desktop Application Command Template, Feature Implementation Command Template, Performance Optimization Command Template, Quick Start Command Template, Refactor Command Template (+30 more)
+Nodes (33): activationEvents, categories, contributes, commands, keybindings, menus, views, description (+25 more)
 
-### Community 3 - "Extension Package Manifest"
+### Community 2 - "Summary Coverage Parser"
 
-Cohesion: 0.07
-Nodes (37): activationEvents, author, categories, properties, title, contributes, commands, default (+29 more)
+Cohesion: 0.14
+Nodes (15): Jest coverage-summary.json (file-level data), Config: covertree.coverageFile, getFileCoverage(), getOverallPct(), parseCoverageSummary(), CoverTreeProvider, FileDecorationProvider (vscode), CoverageTreeItem (+7 more)
 
-### Community 4 - "Dev Patterns & Best Practices"
+### Community 3 - "Detail Coverage Parser"
+
+Cohesion: 0.18
+Nodes (11): Istanbul/Jest coverage-final.json (line-level data), Windows Drive Letter Case Normalization, Config: covertree.detailFile, DetailCoverage, getDetailFileCoverage(), getLineCoverageMap(), IstanbulFileCoverage, LineCoverageStatus (+3 more)
+
+### Community 4 - "Icon Generation"
+
+Cohesion: 0.13
+Nodes (18): BG, buf, chunk(), circle(), crc32(), CRC_TABLE, dest, fs (+10 more)
+
+### Community 5 - "TypeScript Build Config"
+
+Cohesion: 0.11
+Nodes (18): compilerOptions, declaration, declarationMap, esModuleInterop, lib, module, noFallthroughCasesInSwitch, noUnusedLocals (+10 more)
+
+### Community 6 - "Claude Skill Templates"
 
 Cohesion: 0.12
-Nodes (38): Tests Command Template, AAA Test Pattern (Arrange-Act-Assert), Architecture Decision Records (ADR), BullMQ Async Job Queue Pattern, Commander.js CLI Architecture, Dependency Injection Pattern, Exponential Backoff Retry Logic, Factory Pattern (+30 more)
+Nodes (18): API Endpoint Command Template, Backend & Microservices Command Template, Bug Debug & Fix Command Template, Desktop Application Command Template, Feature Implementation Command Template, Performance Optimization Command Template, Quick Start Command Template, Refactor Command Template (+10 more)
 
-### Community 5 - "ADR Architecture Decisions"
+### Community 8 - "Coverage Threshold & Docs"
 
-Cohesion: 0.06
-Nodes (37): Lerna + npm Workspaces Alternative (Rejected), ADR-001: Monorepo with npm Workspaces (docs/adr), Polyrepo Alternative (Rejected), Yarn/pnpm Workspaces Alternative (Rejected), Active Architecture Decision Records Index, ADR-002: TypeScript Strict Mode, ADR-003: RESTful API Design, ADR Template Document (+29 more)
+Cohesion: 0.12
+Nodes (17): Coverage Threshold (75% default), coverage-final.json, coverage-summary.json, CoverTree README, Explorer Badges Feature, Editor Gutter Markers Feature, Status Bar Feature, CoverTreeProvider.provideFileDecoration (+9 more)
 
-### Community 6 - "CoverTree Extension Core"
+### Community 9 - "Navigation & Multi-root"
 
-Cohesion: 0.11
-Nodes (20): ADR-001: npm Workspaces Monorepo, VS Code FileDecorationProvider Pattern, Jest coverage-summary.json Format, Coverage Threshold Pass/Fail Logic, Windows Drive Letter Case Normalization, ESLint Config (typescript-eslint + prettier), GitHub Actions CI Workflow, CoverTree package.json (+12 more)
+Cohesion: 0.23
+Nodes (12): Multi-root Workspace Support, Command: covertree.nextUncoveredLine, Command: covertree.prevUncoveredLine, Command: covertree.refresh, Tree View: covertree.coverageView, activate(), addFolder() (internal), CoverageTreeProvider (imported class) (+4 more)
 
-### Community 7 - "Frontend Package Dependencies"
-
-Cohesion: 0.05
-Nodes (36): dependencies, axios, react, react-dom, react-router-dom, zustand, description, devDependencies (+28 more)
-
-### Community 8 - "Express Backend Package"
-
-Cohesion: 0.07
-Nodes (28): dependencies, cors, dotenv, express, helmet, joi, jsonwebtoken, pg (+20 more)
-
-### Community 9 - "Dev Tool Dependencies"
-
-Cohesion: 0.08
-Nodes (25): devDependencies, eslint, rimraf, tsx, @types/express, @types/node, typescript, @typescript-eslint/eslint-plugin (+17 more)
-
-### Community 10 - "TypeScript Module Config"
-
-Cohesion: 0.08
-Nodes (25): compilerOptions, allowSyntheticDefaultImports, baseUrl, declaration, declarationMap, esModuleInterop, ignoreDeprecations, lib (+17 more)
-
-### Community 11 - "Build & Script Automation"
-
-Cohesion: 0.10
-Nodes (20): scripts, build, clean, clean-root, compile, dev, format, format:check (+12 more)
-
-### Community 12 - "Node Package Metadata"
-
-Cohesion: 0.11
-Nodes (18): description, devDependencies, @types/node, typescript, engines, node, exports, main (+10 more)
-
-### Community 13 - "Prettier Code Formatting"
+### Community 10 - "Code Formatting"
 
 Cohesion: 0.17
 Nodes (11): arrowParens, bracketSpacing, endOfLine, jsxSingleQuote, printWidth, quoteProps, semi, singleQuote (+3 more)
 
-### Community 14 - "Express Middleware Chain"
+### Community 11 - "Architecture Decision Records"
 
-Cohesion: 0.38
-Nodes (5): Express Middleware Chain Pattern, notFound(), healthRouter, app, logger
+Cohesion: 0.24
+Nodes (10): Lerna + npm Workspaces Alternative (Rejected), ADR-001: Monorepo with npm Workspaces (docs/adr), Polyrepo Alternative (Rejected), Yarn/pnpm Workspaces Alternative (Rejected), Active Architecture Decision Records Index, ADR-002: TypeScript Strict Mode, ADR-003: RESTful API Design, ADR Template Document (+2 more)
 
-### Community 15 - "TypeScript Path Config"
+### Community 12 - "Explorer Badge States"
+
+Cohesion: 0.33
+Nodes (10): Covered Badge State (Green), Excluded Badge State (Grey), Partially Covered Badge State (Yellow/Orange), Coverage Badge Indicator, Explorer Badges Screenshot, Source TypeScript Files, src Folder Structure, Test Files (_tests_ folder) (+2 more)
+
+### Community 13 - "Coverage Metrics Display"
+
+Cohesion: 0.24
+Nodes (10): Branches Coverage Metric, Coverage Metrics Display, src/formatters.ts Source File, Functions Coverage Metric, Gutter Markers (colored circles), Lines Coverage Metric, Tooltip Detail Screenshot, Statements Coverage Metric (+2 more)
+
+### Community 14 - "Build Scripts"
 
 Cohesion: 0.20
-Nodes (9): compilerOptions, lib, outDir, paths, rootDir, exclude, extends, include (+1 more)
+Nodes (10): scripts, build, compile, format, format:check, lint, package, publish (+2 more)
 
-### Community 16 - "Renovate Dependency Updates"
+### Community 15 - "Gutter Marker Rendering"
 
-Cohesion: 0.22
-Nodes (8): automerge, dependencyDashboard, extends, packageRules, semanticCommits, vulnerabilityAlerts, assignees, labels
+Cohesion: 0.25
+Nodes (9): covered.svg (green gutter marker icon), partial.svg (yellow gutter marker icon), GutterProvider.applyToEditor, GutterProvider.clearAll, GutterProvider.coveredType (TextEditorDecorationType), GutterProvider.getUncoveredLines, GutterProvider.partialType (TextEditorDecorationType), GutterProvider.refresh (+1 more)
 
-### Community 17 - "API Type Interfaces"
+### Community 16 - "Incomplete Coverage UX"
 
-Cohesion: 0.22
-Nodes (8): IApiResponse, IAuthPayload, ICreateUserRequest, ILoginRequest, ILoginResponse, IPaginatedResponse, IUpdateUserRequest, IUser
+Cohesion: 0.46
+Nodes (8): Green Gutter Marker (Covered Line), Partial/Incomplete Code Coverage State, Red Gutter Marker (Uncovered Line), Gutter Markers Incomplete Coverage Screenshot, stringUtils.ts Source File, TypeScript Source Code, UX: Line-Level Coverage Feedback via Color, VS Code Editor View with Gutter
 
-### Community 18 - "React TypeScript Config"
+### Community 17 - "Complete Coverage UX"
 
-Cohesion: 0.22
-Nodes (8): compilerOptions, jsx, lib, paths, exclude, extends, include, @/\*
+Cohesion: 0.53
+Nodes (6): Full/Complete Code Coverage State, Green Gutter Bar (Covered Line Indicator), Sample File: math.ts with Exported Functions, Gutter Markers Complete Coverage Screenshot, TypeScript Exported Functions (add, subtract, multiply, divide, clamp), VS Code Editor with Gutter Decoration
 
-### Community 19 - "Architecture Quality Patterns"
+### Community 18 - "Extension Icon"
 
-Cohesion: 0.47
-Nodes (6): Web Application Data Flow, Dependency Injection Pattern, Repository Pattern, Service Layer Pattern, Code Quality Development Standards, Testing Coverage Requirements
+Cohesion: 0.60
+Nodes (5): Circuit / Node Graph Aesthetic, Code Coverage Concept, CoverTree Extension Icon, Green on Dark Color Scheme, Tree / Branch Visual Metaphor
 
-### Community 20 - "Infrastructure & Deployment"
-
-Cohesion: 0.40
-Nodes (5): PostgreSQL Docker Service, PostgreSQL Local Development Setup, VS Code Configuration for Project, AWS ECS Deployment Option, Database Migration Tool
-
-### Community 21 - "Claude Code Permissions"
+### Community 19 - "Tool Permissions"
 
 Cohesion: 0.50
 Nodes (3): permissions, allow, deny
 
-### Community 22 - "Local Settings Permissions"
+### Community 20 - "Local Tool Settings"
 
 Cohesion: 0.50
 Nodes (3): permissions, additionalDirectories, allow
 
-### Community 23 - "Desktop App Templates"
+### Community 21 - "PNG Drawing Primitives"
 
 Cohesion: 0.50
-Nodes (4): Electron Desktop Application Template, Electron IPC Communication Pattern, Tauri Desktop Application Template, Desktop Application Project Type
+Nodes (4): circle() draw circle, px() pixel setter, rect() draw rectangle, roundRect() draw rounded rectangle
 
-### Community 24 - "CI Security Pipeline"
-
-Cohesion: 0.67
-Nodes (3): CI Pipeline (lint, test, build, security), Trivy Vulnerability Scanner, CI GitHub Actions Workflow
-
-### Community 25 - "CLI Tool Templates"
+### Community 23 - "Release Workflow"
 
 Cohesion: 0.67
-Nodes (3): CLI Tools Project Type, Code Generator Tool, Commander.js CLI Framework Pattern
-
-### Community 26 - "Shared Type Library"
-
-Cohesion: 0.67
-Nodes (3): Shared Libraries Project Type, IUser Domain Model Interface, Shared TypeScript Types Library
-
-## Ambiguous Edges - Review These
-
-- `Repository Pattern (data access abstraction)` → `Monorepo Shared Package Patterns` [AMBIGUOUS]
-  .github/skills/06-shared-development.md · relation: semantically_similar_to
+Nodes (3): Release GitHub Actions Workflow, softprops/action-gh-release, vsce package step
 
 ## Knowledge Gaps
 
-- **344 isolated node(s):** `allow`, `deny`, `printWidth`, `tabWidth`, `useTabs` (+339 more)
+- **167 isolated node(s):** `allow`, `deny`, `allow`, `additionalDirectories`, `printWidth` (+162 more)
   These have ≤1 connection - possible missing edges or undocumented components.
-- **19 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **22 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 
 _Questions this graph is uniquely positioned to answer:_
 
-- **What is the exact relationship between `Repository Pattern (data access abstraction)` and `Monorepo Shared Package Patterns`?**
-  _Edge tagged AMBIGUOUS (relation: semantically_similar_to) - confidence is low._
-- **Why does `devDependencies` connect `Dev Tool Dependencies` to `Extension Package Manifest`?**
-  _High betweenness centrality (0.048) - this node is a cross-community bridge._
-- **Why does `devDependencies` connect `Dev Tool Dependencies` to `Express Backend Package`?**
-  _High betweenness centrality (0.047) - this node is a cross-community bridge._
-- **What connects `allow`, `deny`, `printWidth` to the rest of the system?**
-  _353 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `TypeScript Compiler Config` be split into smaller, more focused modules?**
-  _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
-- **Should `Backend Package Dependencies` be split into smaller, more focused modules?**
-  _Cohesion score 0.04878048780487805 - nodes in this community are weakly interconnected._
-- **Should `CLI Template Commands` be split into smaller, more focused modules?**
-  _Cohesion score 0.06072874493927125 - nodes in this community are weakly interconnected._
+- **Why does `GutterProvider` connect `Detail Coverage Parser` to `Coverage Threshold & Docs`, `Gutter Marker Rendering`?**
+  _High betweenness centrality (0.031) - this node is a cross-community bridge._
+- **Why does `contributes` connect `Extension Manifest` to `Extension Configuration Properties`?**
+  _High betweenness centrality (0.030) - this node is a cross-community bridge._
+- **Are the 2 inferred relationships involving `CoverTreeProvider` (e.g. with `Explorer Badges Feature` and `CoverageTreeProvider`) actually correct?**
+  _`CoverTreeProvider` has 2 INFERRED edges - model-reasoned connections that need verification._
+- **Are the 2 inferred relationships involving `GutterProvider` (e.g. with `coverage-final.json` and `Editor Gutter Markers Feature`) actually correct?**
+  _`GutterProvider` has 2 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `allow`, `deny`, `allow` to the rest of the system?**
+  _173 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Extension Configuration Properties` be split into smaller, more focused modules?**
+  _Cohesion score 0.05405405405405406 - nodes in this community are weakly interconnected._
+- **Should `Extension Manifest` be split into smaller, more focused modules?**
+  _Cohesion score 0.058823529411764705 - nodes in this community are weakly interconnected._

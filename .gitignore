@@ -144,3 +144,9 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Graphify
+graphify-out/cache/
+graphify-out/graph.html
+graphify-out/cost.json
+graphify-out/.graphify_*
