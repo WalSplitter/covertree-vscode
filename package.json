@@ -26,6 +26,7 @@
   },
   "activationEvents": [
     "workspaceContains:**/jest.config.*",
+    "workspaceContains:**/vitest.config.*",
     "workspaceContains:**/coverage/coverage-summary.json"
   ],
   "main": "./out/extension.js",
@@ -34,6 +35,26 @@
       {
         "command": "covertree.refresh",
         "title": "CoverTree: Refresh Coverage"
+      },
+      {
+        "command": "covertree.nextUncoveredLine",
+        "title": "CoverTree: Go to Next Uncovered Line"
+      },
+      {
+        "command": "covertree.prevUncoveredLine",
+        "title": "CoverTree: Go to Previous Uncovered Line"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "covertree.nextUncoveredLine",
+        "key": "alt+shift+n",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "covertree.prevUncoveredLine",
+        "key": "alt+shift+p",
+        "when": "editorTextFocus"
       }
     ],
     "configuration": {
@@ -76,6 +97,31 @@
             "**/coverage/**"
           ],
           "description": "Glob patterns to exclude from coverage decorations."
+        },
+        "covertree.detailFile": {
+          "type": "string",
+          "default": "coverage/coverage-final.json",
+          "description": "Relative path to Istanbul/Jest coverage-final.json used for editor gutter markers."
+        },
+        "covertree.showGutterMarkers": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show line-level coverage markers in the editor gutter."
+        },
+        "covertree.tool": {
+          "type": "string",
+          "enum": [
+            "jest",
+            "vitest",
+            "nyc"
+          ],
+          "enumDescriptions": [
+            "Jest (default)",
+            "Vitest — compatible json-summary format",
+            "NYC / Istanbul standalone"
+          ],
+          "default": "jest",
+          "description": "Coverage tool used to generate the report. All tools produce compatible formats; this setting is informational and used for future tool-specific adjustments."
         }
       }
     }

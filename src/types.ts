@@ -18,4 +18,4 @@ export interface CoverageSummary {
 }
 
 /** Visual state of a file in the explorer. */
-export type CoverageStatus = 'none' | 'passing' | 'failing';
+export type CoverageStatus = 'none' | 'passing' | 'warning' | 'failing';

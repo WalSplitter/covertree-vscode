@@ -24,10 +24,13 @@ export function getFileCoverage(
   summary: CoverageSummary,
   absoluteFilePath: string
 ): FileCoverage | null {
+  const fwd = absoluteFilePath.replace(/\\/g, '/');
   return (
     summary[absoluteFilePath] ??
+    summary[fwd] ??
     summary[absoluteFilePath.replace(/^([a-z]):/, (_, d) => d.toUpperCase() + ':')] ??
     summary[absoluteFilePath.replace(/^([A-Z]):/, (_, d) => d.toLowerCase() + ':')] ??
+    summary[fwd.replace(/^([a-z]):/i, (_, d) => d.toUpperCase() + ':')] ??
     null
   );
 }

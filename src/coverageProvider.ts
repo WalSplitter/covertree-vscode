@@ -1,7 +1,7 @@
 import * as vscode from 'vscode';
 import * as path from 'path';
 import { parseCoverageSummary, getFileCoverage, getOverallPct } from './coverageParser';
-import { CoverageSummary, CoverageStatus } from './types';
+import { CoverageSummary, CoverageStatus, FileCoverage } from './types';
 
 const WATCHED_EXTENSIONS = /\.(ts|tsx|js|jsx|mjs|cjs)$/;
 const TEST_FILE = /\.(test|spec)\.(ts|tsx|js|jsx|mjs|cjs)$/i;
@@ -17,9 +17,17 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
   private readonly failedFiles = new Set<string>();
   private watcher: vscode.FileSystemWatcher | undefined;
   private threshold: number;
+  private readonly statusBar: vscode.StatusBarItem;
+  private disposed = false;
 
   constructor(private readonly workspaceRoot: string) {
     this.threshold = this.getThreshold();
+    this.statusBar = vscode.window.createStatusBarItem(
+      `covertree.${path.basename(workspaceRoot)}`,
+      vscode.StatusBarAlignment.Left,
+      10
+    );
+    this.statusBar.command = 'covertree.refresh';
     this.refresh();
     this.startWatching();
   }
@@ -30,6 +38,7 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
     this.threshold = this.getThreshold();
     this.coverage = parseCoverageSummary(this.getCoverageFilePath());
     this._onDidChangeFileDecorations.fire(undefined);
+    this.updateStatusBar();
   }
 
   markTestFailure(absoluteFilePath: string): void {
@@ -53,26 +62,34 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
       return undefined;
     }
 
-    switch (this.resolveStatus(uri.fsPath)) {
+    const { status, coverage } = this.resolveStatus(uri.fsPath);
+    const detail = coverage
+      ? `\nLines: ${coverage.lines.pct}% | Fn: ${coverage.functions.pct}% | Branches: ${coverage.branches.pct}% | Stmts: ${coverage.statements.pct}%`
+      : '';
+
+    switch (status) {
       case 'none':
         return {
-          badge: '○',
+          badge: '🔘',
           tooltip: 'CoverTree: No coverage data',
-          color: new vscode.ThemeColor('disabledForeground'),
           propagate: false,
         };
       case 'passing':
         return {
-          badge: '●',
-          tooltip: `CoverTree: Coverage ≥ ${this.threshold}%`,
-          color: new vscode.ThemeColor('testing.iconPassed'),
+          badge: '🟢',
+          tooltip: `CoverTree: Coverage ≥ ${this.threshold}%${detail}`,
+          propagate: false,
+        };
+      case 'warning':
+        return {
+          badge: '🟡',
+          tooltip: `CoverTree: Coverage below ${this.threshold}%${detail}`,
           propagate: false,
         };
       case 'failing':
         return {
-          badge: '✗',
-          tooltip: `CoverTree: Coverage below ${this.threshold}% or test failures`,
-          color: new vscode.ThemeColor('testing.iconFailed'),
+          badge: '❌',
+          tooltip: `CoverTree: Test failures detected${detail}`,
           propagate: false,
         };
     }
@@ -80,20 +97,33 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
 
   // ── Private ───────────────────────────────────────────────────────────────
 
-  private resolveStatus(fsPath: string): CoverageStatus {
+  private resolveStatus(fsPath: string): { status: CoverageStatus; coverage: FileCoverage | null } {
     if (this.failedFiles.has(fsPath)) {
-      return 'failing';
+      return { status: 'failing', coverage: null };
     }
     if (!this.coverage) {
-      return 'none';
+      return { status: 'none', coverage: null };
     }
 
     const fileCoverage = getFileCoverage(this.coverage, fsPath);
     if (!fileCoverage) {
-      return 'none';
+      return { status: 'none', coverage: null };
     }
 
-    return getOverallPct(fileCoverage) >= this.threshold ? 'passing' : 'failing';
+    const status = getOverallPct(fileCoverage) >= this.threshold ? 'passing' : 'warning';
+    return { status, coverage: fileCoverage };
+  }
+
+  private updateStatusBar(): void {
+    if (!this.coverage) {
+      this.statusBar.text = '$(shield) --';
+      this.statusBar.tooltip = 'CoverTree: No coverage data — click to refresh';
+    } else {
+      const pct = getOverallPct(this.coverage.total);
+      this.statusBar.text = `$(shield) ${pct.toFixed(1)}%`;
+      this.statusBar.tooltip = `CoverTree: Overall coverage ${pct.toFixed(1)}% — click to refresh`;
+    }
+    this.statusBar.show();
   }
 
   private getCoverageFilePath(): string {
@@ -109,21 +139,26 @@ export class CoverTreeProvider implements vscode.FileDecorationProvider, vscode.
   }
 
   private startWatching(): void {
-    const pattern = new vscode.RelativePattern(
-      this.workspaceRoot,
-      'coverage/coverage-summary.json'
-    );
+    const configuredPath = this.getCoverageFilePath();
+    const relativePath = path.relative(this.workspaceRoot, configuredPath);
+    const pattern = new vscode.RelativePattern(this.workspaceRoot, relativePath);
     this.watcher = vscode.workspace.createFileSystemWatcher(pattern);
     this.watcher.onDidChange(() => this.refresh());
     this.watcher.onDidCreate(() => this.refresh());
     this.watcher.onDidDelete(() => {
       this.coverage = null;
       this._onDidChangeFileDecorations.fire(undefined);
+      this.updateStatusBar();
     });
   }
 
   dispose(): void {
+    if (this.disposed) {
+      return;
+    }
+    this.disposed = true;
     this.watcher?.dispose();
+    this.statusBar.dispose();
     this._onDidChangeFileDecorations.dispose();
   }
 }
