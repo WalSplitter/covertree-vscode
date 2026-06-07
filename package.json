@@ -3,7 +3,7 @@
   "displayName": "CoverTree",
   "description": "Jest code coverage indicators in the VS Code file explorer",
   "version": "0.1.0",
-  "publisher": "WalSplitter",
+  "publisher": "mgrosshauser",
   "license": "MIT",
   "engines": {
     "vscode": "^1.85.0",
@@ -29,6 +29,7 @@
     "workspaceContains:**/vitest.config.*",
     "workspaceContains:**/coverage/coverage-summary.json"
   ],
+  "icon": "resources/icon.png",
   "main": "./out/extension.js",
   "contributes": {
     "views": {
