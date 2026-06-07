@@ -1,11 +1,21 @@
 import * as vscode from 'vscode';
 import { CoverTreeProvider } from './coverageProvider';
 import { GutterProvider } from './gutterProvider';
+import { CoverageTreeProvider } from './coverageTreeProvider';
 
 export function activate(context: vscode.ExtensionContext): void {
   const coverageProviders = new Map<string, CoverTreeProvider>();
   const gutterProviders = new Map<string, GutterProvider>();
   const decoSubscriptions = new Map<string, vscode.Disposable>();
+  const treeProvider = new CoverageTreeProvider();
+
+  context.subscriptions.push(
+    vscode.window.createTreeView('covertree.coverageView', {
+      treeDataProvider: treeProvider,
+      showCollapseAll: true,
+    }),
+    treeProvider
+  );
 
   function addFolder(folder: vscode.WorkspaceFolder): void {
     const root = folder.uri.fsPath;
@@ -15,6 +25,7 @@ export function activate(context: vscode.ExtensionContext): void {
     coverageProviders.set(root, coverage);
     gutterProviders.set(root, gutter);
     decoSubscriptions.set(root, decoSub);
+    treeProvider.addRoot(root);
   }
 
   function removeFolder(folder: vscode.WorkspaceFolder): void {
@@ -25,6 +36,7 @@ export function activate(context: vscode.ExtensionContext): void {
     coverageProviders.delete(root);
     gutterProviders.delete(root);
     decoSubscriptions.delete(root);
+    treeProvider.removeRoot(root);
   }
 
   for (const folder of vscode.workspace.workspaceFolders ?? []) {
@@ -47,7 +59,7 @@ export function activate(context: vscode.ExtensionContext): void {
       vscode.window.showInformationMessage('CoverTree: No uncovered lines in this file.');
       return;
     }
-    const current = editor.selection.active.line + 1; // 1-indexed
+    const current = editor.selection.active.line + 1;
     const target =
       direction === 'next'
         ? (lines.find((l) => l > current) ?? lines[0])
@@ -71,6 +83,7 @@ export function activate(context: vscode.ExtensionContext): void {
       for (const g of gutterProviders.values()) {
         g.refresh();
       }
+      treeProvider.refresh();
       vscode.window.showInformationMessage('CoverTree: Coverage refreshed.');
     }),
 
@@ -82,6 +95,7 @@ export function activate(context: vscode.ExtensionContext): void {
         for (const g of gutterProviders.values()) {
           g.refresh();
         }
+        treeProvider.refresh();
       }
     }),
 

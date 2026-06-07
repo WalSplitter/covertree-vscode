@@ -31,10 +31,29 @@
   ],
   "main": "./out/extension.js",
   "contributes": {
+    "views": {
+      "explorer": [
+        {
+          "id": "covertree.coverageView",
+          "name": "Coverage",
+          "contextualTitle": "CoverTree"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "covertree.refresh",
+          "when": "view == covertree.coverageView",
+          "group": "navigation"
+        }
+      ]
+    },
     "commands": [
       {
         "command": "covertree.refresh",
-        "title": "CoverTree: Refresh Coverage"
+        "title": "CoverTree: Refresh Coverage",
+        "icon": "$(refresh)"
       },
       {
         "command": "covertree.nextUncoveredLine",
