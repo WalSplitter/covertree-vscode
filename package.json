@@ -2,7 +2,7 @@
   "name": "covertree",
   "displayName": "CoverTree",
   "description": "Jest code coverage indicators in the VS Code file explorer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "mgrosshauser",
   "license": "MIT",
   "engines": {
